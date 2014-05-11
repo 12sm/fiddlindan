@@ -9,6 +9,9 @@
 
 body { }
 
+.col {
+margin: 0 1%;
+}
 
 
 /* ==========================================================================
@@ -128,7 +131,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { }
+@media (min-width: @screen-sm) { 
+.col, .post-nav {
+margin: 0 10%;
+}
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md) { }

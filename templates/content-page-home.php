@@ -18,7 +18,9 @@
 <div class="row" id="bg-3">
 	<div class="col-sm-8">
 		<div id="home-3-content">
+		<h2>Dan Can Rock Your Track</h2>
 	<?php echo do_shortcode('[wpv-view name="home-audio-slider"]'); ?>
+	<button class="btn btn-read">Book Dan</button> <button class="btn btn-music">More Music</button>
 		</div>
 	</div>
 </div>

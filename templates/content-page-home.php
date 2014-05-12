@@ -25,8 +25,7 @@
 	</div>
 </div>
 <div class="row" id="bg-4">
-	<div class="col-sm-12">
-		<h1> Book Dan</h1>
+	<div class="col-sm-4 col-sm-offset-4">
 		<?php echo do_shortcode('[vfb id=1]'); ?>
 	</div>
 </div>

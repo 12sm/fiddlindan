@@ -159,8 +159,12 @@ padding: 5px!important;
 .content {margin-top: -20px; }
 
 /* ==========================================================================
-   Audio Slider/Mixer
+   Audio Slider/Mixer - Sessions
    ========================================================================== */
+.page-id-4{
+  background: url(../img/BG-Image.jpg) no-repeat;
+  background-size: cover!important;
+}
 .slider{  
     border-width: 1px;  
     border-style: solid;  

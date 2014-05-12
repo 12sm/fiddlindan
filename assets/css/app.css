@@ -123,9 +123,26 @@ width: 100%;
    Header
    ========================================================================== */
 
-.banner { }
-
-
+.banner {
+background: transparent;
+margin: 0;
+position: absolute;
+border: 0px solid;
+width: 100%;
+}
+#menu-primary-navigation {
+margin-left: 12%;
+}
+#menu-primary-navigation>li, #menu-primary-navigation>li.active {
+background-color: rgba(95,118,134,.7);
+color: #fff;
+font-family: 'liberator';
+height: 35px;
+}
+#menu-primary-navigation>li>a {
+color: #fff;
+padding: 8px;
+}
 
 /* ==========================================================================
    Content

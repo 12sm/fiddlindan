@@ -52,7 +52,7 @@ margin-bottom: 0px;
   padding: 0;
 }
 div.slide-background {
-padding-bottom: 625px;
+padding-bottom: 650px;
 background-size: cover!important;
 }
 .headline-box {
@@ -69,7 +69,7 @@ color: #fff!important;
 }
 #bg-2{
   background: url(../img/about-image.jpg) no-repeat;
-  padding-bottom: 500px;
+  padding-bottom: 650px;
   background-size: cover!important; 
 }
 #home-2-content {
@@ -79,7 +79,7 @@ position: absolute;
 #bg-3{
   background: url(../img/player-image.jpg) no-repeat;
   background-size: cover!important;
-  padding-bottom: 500px;
+  padding-bottom: 650px;
 }
 #home-3-content {
 margin-top: 150px;

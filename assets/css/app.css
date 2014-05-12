@@ -8,7 +8,7 @@
    ========================================================================== */
 @font-face {
   font-family: 'Liberator';
-  src: url('../assets/fonts/Liberator.ttf') format('truetype'); 
+  src: url('../fonts/Liberator.ttf') format('truetype'); 
 }
 
 body { }
@@ -30,6 +30,15 @@ width: 100%;
 }
 .home-slider-container{
   padding: 0;
+}
+div.slide-background {
+padding-bottom: 300px;
+background-size: cover!important;
+}
+.headline-box {
+position: absolute;
+padding: 10px;
+background: rgba(0,0,0,0.5);
 }
 /* ==========================================================================
    Header
@@ -279,6 +288,16 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: @screen-sm) { 
 .col, .post-nav {
 margin: 0 10%;
+}
+.slide-background {
+padding-bottom: 625px;
+}
+.headline-box {
+position: absolute;
+bottom: 150px;
+left: 75px;
+padding: 10px;
+background: rgba(0,0,0,0.5);
 }
 }
 

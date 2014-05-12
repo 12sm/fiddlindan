@@ -1,7 +1,7 @@
 <div class="row" id="bg-1">
 	<div class="col-sm-12">
 	<h1>TEST</h1>
-	<?php echo do_shortcode('[wpv-view name="Home page - Slider"]'); ?>
+	<?php echo do_shortcode('[wpv-view name="home-top-banners"]'); ?>
 	</div>
 </div>
 <div class="row" id="bg-2">

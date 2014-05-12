@@ -24,10 +24,19 @@ p{
 h3{
 font-size: 32px;
 }
+h2{
+font-size: 75px;
+}
 .col {
 margin: 0 1%;
 }
-
+button{
+color: #fff;
+font-family: 'liberator';
+font-size: 19px;
+border: 0px solid !important;
+border-radius: 0px;
+}
 /* ==========================================================================
    Home
    ========================================================================== */
@@ -53,11 +62,6 @@ padding: 10px;
 }
 .btn.btn-read {
 background-color: rgba(13,115,138, .6);
-border: 0px solid !important;
-border-radius: 0px;
-color: #fff;
-font-family: 'liberator';
-font-size: 19px;
 }
 #bg-2{
   background: url(../img/about-image.jpg) no-repeat;

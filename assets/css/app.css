@@ -33,9 +33,9 @@ margin: 0 1%;
 button{
 color: #fff;
 font-family: 'liberator';
-font-size: 19px;
+font-size: 19px!important;
 border: 0px solid !important;
-border-radius: 0px;
+border-radius: 0px!important;
 }
 /* ==========================================================================
    Home

@@ -17,7 +17,9 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Liberator';
   color: #ffffff;
 }
-
+h3{
+font-size: 32px;
+}
 .col {
 margin: 0 1%;
 }
@@ -43,6 +45,14 @@ background: rgba(0,0,0,0.5);
 bottom: 75px;
 left: 100px;
 padding: 10px;
+}
+.btn.btn-read {
+background-color: rgba(13,115,138, .6);
+border: 0px solid !important;
+border-radius: 0px;
+color: #fff;
+font-family: 'liberator';
+font-size: 19px;
 }
 /* ==========================================================================
    Header

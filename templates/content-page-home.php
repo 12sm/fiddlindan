@@ -14,9 +14,6 @@
 		echo $content;
 		?>
 	</div>
-	<div class="col-sm-6">
-		<img src="...." id="bg-2-img" />
-	</div>
 </div>
 <div class="row" id="bg-3">
 	<div class="col-sm-8">

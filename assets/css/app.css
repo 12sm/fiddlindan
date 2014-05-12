@@ -34,6 +34,7 @@ margin: 0 1%;
 ul#top-slider {
 padding: 0;
 width: 100%;
+margin-bottom: 0px;
 }
 .home-slider-container{
   padding: 0;
@@ -62,6 +63,10 @@ font-size: 19px;
   background: url(../img/about-image.jpg) no-repeat;
   padding-bottom: 500px;
   background-size: cover!important; 
+}
+div#home-2-content {
+margin-top: 50px;
+position: absolute;
 }
 /* ==========================================================================
    Header

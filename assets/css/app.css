@@ -39,6 +39,9 @@ background-size: cover!important;
 position: absolute;
 padding: 10px;
 background: rgba(0,0,0,0.5);
+bottom: 150px;
+left: 75px;
+padding: 10px;
 }
 /* ==========================================================================
    Header

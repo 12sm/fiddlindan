@@ -64,7 +64,7 @@ font-size: 19px;
   padding-bottom: 500px;
   background-size: cover!important; 
 }
-div#home-2-content {
+#home-2-content {
 margin-top: 50px;
 position: absolute;
 }
@@ -72,6 +72,10 @@ position: absolute;
   background: url(../img/player-image.jpg) no-repeat;
   background-size: cover!important;
   padding-bottom: 500px;
+}
+#home-3-content {
+margin-top: 50px;
+position: absolute;
 }
 /* ==========================================================================
    Header

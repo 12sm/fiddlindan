@@ -17,6 +17,8 @@
 </div>
 <div class="row" id="bg-3">
 	<div class="col-sm-8">
+		<div id="home-3-content">
 	<?php echo do_shortcode('[wpv-view name="home-audio-slider"]'); ?>
+		</div>
 	</div>
 </div>

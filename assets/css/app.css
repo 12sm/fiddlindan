@@ -8,7 +8,7 @@
    ========================================================================== */
 @font-face {
   font-family: 'Liberator';
-  src: url('/assets/fonts/Liberator.ttf') format('truetype'); 
+  src: url('../assets/fonts/Liberator.ttf') format('truetype'); 
 }
 
 body { }
@@ -234,7 +234,18 @@ display: none;
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
-
+#menu-footer-nav>li>a {
+font-family: "Liberator";
+}
+#menu-footer-nav {
+list-style: none;
+float: left;
+display: inline-block;
+}
+#menu-footer-nav>li {
+display: inline-block;
+margin: 0 5px;
+}
 
 /* ==========================================================================
    WordPress Generated Classes

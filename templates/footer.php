@@ -4,15 +4,15 @@
       <div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
-     
-      <div id="social" class="row social-nav">
+     <div class="row">
+      <div id="social" class="social-nav">
   <?php
      if (has_nav_menu('social_navigation')) :
        wp_nav_menu(array('theme_location' => 'social_navigation', 'menu_class' => ''));
      endif;
   ?>
     </div>
-    <div class="row footer-nav">    
+    <div class="footer-nav">    
   <?php
      if (has_nav_menu('footer_navigation')) :
        wp_nav_menu(array('theme_location' => 'footer_navigation', 'menu_class' => ''));

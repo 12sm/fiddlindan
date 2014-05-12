@@ -17,6 +17,10 @@ h1,h2,h3,h4,h5,h6{
   font-family: 'Liberator';
   color: #ffffff;
 }
+p{
+  font-family: 'arial';
+  color: #fff;
+}
 h3{
 font-size: 32px;
 }

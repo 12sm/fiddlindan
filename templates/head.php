@@ -21,7 +21,8 @@ http://12southmusic.com/
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
+  <script type="text/javascript" src="//use.typekit.net/zkf1gqz.js"></script>
+  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <?php wp_head(); ?>
    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>

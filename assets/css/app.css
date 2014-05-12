@@ -139,8 +139,16 @@ width: 100%;
     height: 100%;  
     border-radius: 25px;  
 } 
-
-
+.dan-nodan {
+list-style: none;
+color: #fff;
+}
+.dan-nodan>li:nth-child(1) {
+float: left;
+}
+.dan-nodan>li:nth-child(2) {
+float: right;
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */

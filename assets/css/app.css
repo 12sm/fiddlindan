@@ -68,6 +68,11 @@ div#home-2-content {
 margin-top: 50px;
 position: absolute;
 }
+#bg-3{
+  background: url(../img/player-image.jpg) no-repeat;
+  background-size: cover!important;
+  padding-bottom: 500px;
+}
 /* ==========================================================================
    Header
    ========================================================================== */

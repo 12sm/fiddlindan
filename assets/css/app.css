@@ -54,6 +54,7 @@ margin-bottom: 0px;
 div.slide-background {
 padding-bottom: 650px;
 background-size: cover!important;
+margin-top: -20px;
 }
 .headline-box {
 position: absolute;

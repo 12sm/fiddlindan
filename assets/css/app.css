@@ -203,7 +203,12 @@ margin-top: 6%;
     top: 0;  
     height: 100%;  
     border-radius: 25px;  
-} 
+}
+.slider-house{
+  background: url(../img/player-slider-house.jpg) no-repeat;
+  height: 45px;
+  background-size: cover;
+}
 .dan-nodan {
 list-style: none;
 color: #fff;

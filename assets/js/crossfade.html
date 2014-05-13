@@ -5,9 +5,9 @@
     <div class="row">
     <div class="col-sm-12">
       <div class="slider-body">
-            <div class="slider-house">
-            <i class="slider-control fa fa-play" onclick="sample[wpv-post-id].toggle();"></i>
+        <i class="slider-control fa fa-play" onclick="sample[wpv-post-id].toggle();"></i>
             <i class=" slider-control fa fa-pause hide" onclick="sample[wpv-post-id].toggle();"></i>
+            <div class="slider-house">
           <div class="slider-section">
 <input type="range" min="0" max="100" value="100" onchange="sample[wpv-post-id].crossfade(this);">
 <img src="../assets/img/Player-Marks.png">
@@ -64,6 +64,9 @@ CrossfadeSample.prototype.play = function() {
     source.buffer = buffer;
     // Turn on looping
     source.loop = true;
+    //source dependent toggle
+
+      $('.slider-control').toggleClass('hide');
 
     // Connect source to gain.
     source.connect(gainNode);

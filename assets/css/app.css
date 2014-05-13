@@ -219,7 +219,7 @@ margin-top: 6%;
 }
 .slider-body {
 background: url(../img/player-bg-square.png) repeat;
-height: 200px;
+height: 250px;
 border-radius: 5px;
 background-size: cover;
 border: 2px solid #414141;
@@ -256,7 +256,7 @@ i.fa.fa-play {
 color: #22C618;
 font-size: 16px;
 }
-.slider-house i {
+.slider-body i {
 cursor: pointer;
 margin-left: 25px;
 margin-top: 7px;

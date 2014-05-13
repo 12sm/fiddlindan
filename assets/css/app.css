@@ -352,7 +352,7 @@ padding-left: 50px;
 .hentry footer { }
 
 .blog{
-  background: url(../img/Footer-Image.jpg);
+  background: url(../img/Footer-Image.jpg) fixed;
   background-size: cover;
 }
 

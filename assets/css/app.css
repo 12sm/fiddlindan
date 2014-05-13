@@ -204,7 +204,7 @@ margin-top: 6%;
     height: 100%;  
     border-radius: 25px;  
 }
-.slider-house{
+.slider-house>input{
   background: url(../img/player-slider-house.png) no-repeat;
   height: 45px;
   background-size: cover;

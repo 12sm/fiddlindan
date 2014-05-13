@@ -22,9 +22,9 @@ p{
   color: #fff;
   line-height: 20px;
 }
-h1{
-font-size: 68px;
-line-height: 40px;
+h1 {
+font-size: 115px;
+line-height: 90px;
 }
 b{
   font-family: 'liberator';
@@ -340,6 +340,9 @@ padding-left: 50px;
     background: url(../img/BG-Music.jpg) no-repeat;
     background-size: cover
    }
+   .page-id-33 .main {
+padding-top: 100px;
+}
 
 /* ==========================================================================
    Posts

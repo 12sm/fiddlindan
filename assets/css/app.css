@@ -204,10 +204,22 @@ margin-top: 6%;
     height: 100%;  
     border-radius: 25px;  
 }
-.slider-house{
-  background: url(../img/player-slider-house.png) no-repeat;
-  height: 45px;
-  background-size: cover;
+.slider-house {
+background: url(../img/player-slider-house.png) no-repeat;
+height: 125px;
+background-size: cover;
+background-position: center;
+}
+input[type="range"] {
+-webkit-appearance: none;
+background-color: #000;
+border-radius: 65px;
+}
+input[type='range']::-webkit-slider-thumb {
+-webkit-appearance: none;
+background: url(../img/player-slider.png);
+width: 15px;
+height: 20px;
 }
 .dan-nodan {
 list-style: none;

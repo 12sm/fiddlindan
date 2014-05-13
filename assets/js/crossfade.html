@@ -66,7 +66,7 @@ CrossfadeSample.prototype.play = function() {
     source.connect(gainNode);
     // Connect gain to destination.
     gainNode.connect(context.destination);
-
+    $('.slider-control').toggleClass('hide');
     return {
       source: source,
       gainNode: gainNode
@@ -78,6 +78,7 @@ CrossfadeSample.prototype.stop = function() {
   var offName = this.ctl[wpv-post-id]1.source.stop ? 'stop' : 'noteOff';
   this.ctl[wpv-post-id]1.source[offName](0);
   this.ctl[wpv-post-id]2.source[offName](0);
+  $('.slider-control').toggleClass('hide');
 };
 
 // Fades between 0 (all source 1) and 1 (all source 2)

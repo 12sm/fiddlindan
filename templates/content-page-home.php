@@ -7,10 +7,10 @@
 	<div class="col-sm-6 col-sm-offset-1">
 		<div id="home-2-content">
 		<?php
-		global $more;
-		$more = 0;
 		$page_id = 44;  //Page ID
 		$page_data = get_page( $page_id );
+		global $more;
+		$more = 0;
 		$content = apply_filters('the_content', $page_data->post_content);
 		echo $content;
 		?>

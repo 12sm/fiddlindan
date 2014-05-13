@@ -8,12 +8,12 @@
  */
 
 
-//Excerpt filter
-function excerpt_read_more_link($output) {
- global $post;
- return $output . '<a href="'. get_permalink($post->ID) . '"> Read More...</a>';
+//Excerpt function
+add_action( 'init', 'my_add_excerpts_to_pages' );
+function my_add_excerpts_to_pages() {
+     add_post_type_support( 'page', 'excerpt' );
 }
-add_filter('the_excerpt', 'excerpt_read_more_link');
+
 //
 
 define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/' );

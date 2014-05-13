@@ -68,12 +68,12 @@ margin-bottom: 0px;
   padding: 0;
 }
 div.slide-background {
-padding-bottom: 650px;
+min-height: 650px;
 background-size: cover!important;
 margin-top: -20px; 
 }
 .headline-box {
-position: absolute;
+position: relative;
 padding: 10px;
 background: rgba(0,0,0,0.5);
 bottom: 75px;
@@ -97,11 +97,11 @@ position: relative;
 #bg-3{
   background: url(../img/player-image.jpg) no-repeat;
   background-size: cover!important;
-  padding-bottom: 650px;
+  min-height: 650px;
 }
 #home-3-content {
 margin-top: 150px;
-position: absolute;
+position: relative;
 width: 100%;
 }
 .btn.btn-music{

@@ -218,7 +218,7 @@ margin-top: 6%;
     border-radius: 25px;  
 }
 .slider-body {
-background: url(../img/Player-BG.png) repeat;
+background: url(../img/player-bg-square.png) repeat;
 height: 200px;
 border-radius: 5px;
 background-size: cover;

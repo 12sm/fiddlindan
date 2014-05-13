@@ -11,7 +11,7 @@
 		$page_data = get_page( $page_id );
 		global $more;
 		$more = 0;
-		$content = apply_filters('the_content', $page_data->post_excerpt);
+		$content = apply_filters('the_excerpt', $page_data->post_excerpt);
 		echo $content;
 		?>
 		<a href="/about/">

@@ -45,11 +45,6 @@
 
 CrossfadeSample.prototype.play = function() {
 
-     if (typeof buffer === "undefined") { console.log('buffer not loaded');
-  } else{
-    $('.slider-control').toggleClass('hide');
-  };
-
   console.log('.play function called');
   // Create two sources.
   this.ctl[wpv-post-id]1 = createSource(this.alpha);
@@ -69,7 +64,10 @@ CrossfadeSample.prototype.play = function() {
     source.buffer = buffer;
     // Turn on looping
     source.loop = true;
- 
+    //source dependent toggle
+
+      $('.slider-control').toggleClass('hide');
+
     // Connect source to gain.
     source.connect(gainNode);
     // Connect gain to destination.
@@ -78,7 +76,6 @@ CrossfadeSample.prototype.play = function() {
       source: source,
       gainNode: gainNode
     };
-          console.log('source returned');
   }
 };
 
@@ -101,7 +98,8 @@ CrossfadeSample.prototype.crossfade = function(element) {
 };
 
 CrossfadeSample.prototype.toggle = function() {
-  this.isPlaying ? this.stop( function(){}) : this.play();
+
+  this.isPlaying ? this.stop() : this.play();
   this.isPlaying = !this.isPlaying;
 };
             

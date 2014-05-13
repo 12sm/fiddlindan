@@ -61,6 +61,7 @@ BufferLoader.prototype.loadBuffer = function(url, index) {
   var loader = this;
 
   request.onload = function() {
+    console.log('onload functino fired')
     // Asynchronously decode the audio file data in request.response
     loader.context.decodeAudioData(
       request.response,
@@ -69,7 +70,7 @@ BufferLoader.prototype.loadBuffer = function(url, index) {
           alert('error decoding file data: ' + url);
           return;
         }
-        $('.slider-control').toggleClass('hide');
+
         loader.bufferList[index] = buffer;
         if (++loader.loadCount == loader.urlList.length)
           loader.onload(loader.bufferList);

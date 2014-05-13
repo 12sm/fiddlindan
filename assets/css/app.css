@@ -217,6 +217,12 @@ margin-top: 6%;
     height: 100%;  
     border-radius: 25px;  
 }
+.slider-body {
+background: url('../img/Player-BG.jpg') repeat;
+height: 200px;
+border-radius: 5px;
+background-size: cover;
+}
 .slider-house {
 background: url(../img/Player-Slider-House.png) no-repeat;
 height: 170px;
@@ -253,6 +259,12 @@ left: 15px;
 .dan-nodan {
 list-style: none;
 color: #fff;
+padding-right: 40px;
+}
+.dan-nodan>li {
+font-family: 'liberator';
+font-size: 28px;
+margin-top: -15px;
 }
 .dan-nodan>li:nth-child(1) {
 float: left;

@@ -19,7 +19,7 @@ function playSound(buffer, time) {
   source.buffer = buffer;
   source.connect(context.destination);
   source.start(time);
-   $('.slider-control').toggleClass('hide');
+
 }
 
 function loadSounds(obj, soundMap) {
@@ -69,6 +69,7 @@ BufferLoader.prototype.loadBuffer = function(url, index) {
           alert('error decoding file data: ' + url);
           return;
         }
+        $('.slider-control').toggleClass('hide');
         loader.bufferList[index] = buffer;
         if (++loader.loadCount == loader.urlList.length)
           loader.onload(loader.bufferList);

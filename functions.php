@@ -7,6 +7,15 @@
  * instead of template_directory
  */
 
+
+//Excerpt filter
+function excerpt_read_more_link($output) {
+ global $post;
+ return $output . '<a href="'. get_permalink($post->ID) . '"> Read More...</a>';
+}
+add_filter('the_excerpt', 'excerpt_read_more_link');
+//
+
 define( 'OPTIONS_FRAMEWORK_DIRECTORY', get_template_directory_uri() . '/inc/' );
 require_once dirname( __FILE__ ) . '/inc/options-framework.php';
 

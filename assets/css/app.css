@@ -219,8 +219,8 @@ margin-top: 6%;
 }
 .slider-house {
 background: url(../img/Player-Slider-House.png) no-repeat;
-height: 125px;
-background-size: cover;
+height: 170px;
+background-size: contain;
 background-position: center;
 }
 input[type="range"] {
@@ -229,9 +229,6 @@ background-color: #000;
 border-radius: 65px;
 width: 75%;
 height: 25px;
-position: absolute;
-top: 45px;
-left: 100px;
 }
 input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none;
@@ -239,6 +236,7 @@ background: url(../img/Player-Slider.png) no-repeat;
 width:90px;
 height: 65px;
 background-size:contain;
+z-index: 500
 }
 .dan-nodan {
 list-style: none;

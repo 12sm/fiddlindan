@@ -247,6 +247,15 @@ height: 65px;
 background-size:contain;
 z-index: 500
 }
+input[type="button"] {
+-webkit-appearance: none!important;
+background: transparent!important;
+border: transparent;
+}
+i.fa.fa-play {
+color: #22C618;
+font-size: 16px;
+}
 div.slider-section {
 position: absolute;
 top: 70px;

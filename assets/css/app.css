@@ -227,8 +227,11 @@ input[type="range"] {
 -webkit-appearance: none;
 background-color: #000;
 border-radius: 65px;
-width: 60%;
+width: 75%;
 height: 25px;
+position: absolute;
+top: 45px;
+left: 100px;
 }
 input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none;

@@ -308,7 +308,7 @@ font-size: 18px;
    Primary Content
    ========================================================================== */
 
-.main {padding-top: 5%; }
+.main {padding-top: 5%; padding-bottom: 5%;}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -350,6 +350,11 @@ padding-left: 50px;
 .hentry .byline { }
 .hentry .entry-content { }
 .hentry footer { }
+
+.blog{
+  background: url(../img/Footer-Image.jpg);
+  background-size: cover;
+}
 
 .hentry time {
 font-size: 12px;

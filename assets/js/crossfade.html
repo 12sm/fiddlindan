@@ -64,9 +64,6 @@ CrossfadeSample.prototype.play = function() {
     source.buffer = buffer;
     // Turn on looping
     source.loop = true;
-    //source dependent toggle
-
-      $('.slider-control').toggleClass('hide');
 
     // Connect source to gain.
     source.connect(gainNode);

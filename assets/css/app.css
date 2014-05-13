@@ -21,6 +21,10 @@ p{
   font-family: 'arial';
   color: #fff;
 }
+h1{
+font-size: 68px;
+line-height: 40px;
+}
 b{
   font-family: 'liberator';
 }
@@ -120,6 +124,7 @@ background-color: rgba(0,0,0,0);
 border: 1px solid #414141;
 width: 100%;
 }
+
 /* ==========================================================================
    Header
    ========================================================================== */

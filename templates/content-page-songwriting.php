@@ -1,5 +1,5 @@
-<div class="row">
-	<div class="co-sm-8 col-sm-offset-4">
+<div class="row col">
+	<div class="co-sm-7 col-sm-offset-5">
 <?php while (have_posts()) : the_post(); ?>
   <?php the_content(); ?>
 <?php endwhile; ?>

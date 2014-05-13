@@ -19,6 +19,7 @@ function playSound(buffer, time) {
   source.buffer = buffer;
   source.connect(context.destination);
   source.start(time);
+   $('.slider-control').toggleClass('hide');
 }
 
 function loadSounds(obj, soundMap) {

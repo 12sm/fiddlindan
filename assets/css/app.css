@@ -57,6 +57,7 @@ textarea:focus, input:focus{
    ========================================================================== */
    .home .main {
 padding-top: 0px!important;
+padding-bottom: 0px!important;
 }
 ul#top-slider {
 padding: 0;

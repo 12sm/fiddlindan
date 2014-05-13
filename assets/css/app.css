@@ -238,6 +238,10 @@ height: 65px;
 background-size:contain;
 z-index: 500
 }
+.slider-section>img {
+position: absolute;
+z-index: 0;
+}
 .dan-nodan {
 list-style: none;
 color: #fff;

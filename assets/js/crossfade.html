@@ -4,31 +4,31 @@
     <wpv-loop>
     <div class="row">
     <div class="col-sm-12">
-    <div class="slider-body">
-          <input type="button" id="[wpv-post-id]" onclick="sample[wpv-post-id].toggle();" value="Play/Pause">
-      <div class="slider-house">
+      <div class="slider-body">
+            <div class="slider-house">
+          <input type="button" onclick="sample[wpv-post-id].toggle();" value="Play/Pause">
 <input type="range" min="0" max="100" value="100" onchange="sample[wpv-post-id].crossfade(this);">
       </div>
   <ul class="dan-nodan">
     <li>No Dan</li>
     <li>Dan</li>
   </ul>
-        <div class="row session-meta">
-          <div class="col-sm-4">
-            <ul class="sesh-meta">
-              <li><b>Title</b>:[wpv-post-title]</li>
-              <li><b>BY</b>: Dan Hochlater</li>
-              <li><b>Instruments</b>:[wpv-post-taxonomy type="instruments" separator=", " format="text" show="name" order="asc"]</li>
-              <li><b>Genre</b>:[wpv-post-taxonomy type="genres" separator=", " format="text" show="name" order="asc"]</li>
-            </ul>
-          </div>
-          <div class="col-sm-8">
-            [types field="description"][/types]
+<div class="row session-meta">
+        <div class="col-sm-4">
+          <ul class="sesh-meta">
+            <li><b>Title</b>:[wpv-post-title]</li>
+            <li><b>BY</b>: Dan Hochlater</li>
+            <li><b>Instruments</b>:[wpv-post-taxonomy type="instruments" separator=", " format="text" show="name" order="asc"]</li>
+            <li><b>Genre</b>:[wpv-post-taxonomy type="genres" separator=", " format="text" show="name" order="asc"]</li>
+          </ul>
+        </div>
+        <div class="col-sm-8">
+          [types field="description"][/types]
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
+        </div>
           <script>
             var CrossfadeSample = function() {
   loadSounds(this, {

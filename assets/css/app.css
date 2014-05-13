@@ -228,12 +228,14 @@ input[type="range"] {
 background-color: #000;
 border-radius: 65px;
 width: 60%;
+height: 25px;
 }
 input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none;
-background: url(../img/Player-Slider.png);
-width: 15px;
-height: 20px;
+background: url(../img/Player-Slider.png) no-repeat;
+width:90px;
+height: 65px;
+background-size:contain;
 }
 .dan-nodan {
 list-style: none;

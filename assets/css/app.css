@@ -251,7 +251,6 @@ input[type="button"] {
 -webkit-appearance: none!important;
 background: transparent!important;
 border: transparent;
-margin-left: 25px;
 }
 i.fa.fa-play {
 color: #22C618;
@@ -259,6 +258,9 @@ font-size: 16px;
 }
 .slider-house i {
 cursor: pointer;
+margin-left: 25px;
+margin-top: 7px;
+margin-left: 25px;
 }
 div.slider-section {
 position: absolute;

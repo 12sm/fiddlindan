@@ -222,6 +222,9 @@ background: url(../img/player-bg-square.png) repeat;
 height: 200px;
 border-radius: 5px;
 background-size: cover;
+border: 2px solid #414141;
+-webkit-box-shadow: 0 0 10px #C8C8C8;
+box-shadow: 0 0 10px #C8C8C8;
 }
 .slider-house {
 background: url(../img/Player-Slider-House.png) no-repeat;

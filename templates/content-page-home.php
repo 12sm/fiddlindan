@@ -12,6 +12,9 @@
 		$content = apply_filters('the_content', $page_data->post_content);
 		echo $content;
 		?>
+		<a href="/about/">
+		<button class="btn btn-read">Full Bio</button>
+		</a>
 		</div>
 	</div>
 </div>

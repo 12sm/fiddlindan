@@ -276,6 +276,7 @@ z-index: 0;
 position: absolute;
 z-index: -1;
 left: 15px;
+width: 71%;
 }
 .dan-nodan {
 list-style: none;

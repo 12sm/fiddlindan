@@ -80,14 +80,14 @@ max-width: 525px;
 background-color: rgba(13,115,138, .6);
 color: #fff!important;
 }
-#bg-2{
-  background: url(../img/about-image.jpg) no-repeat;
-  padding-bottom: 650px;
-  background-size: cover!important; 
+#bg-2 {
+background: url(../img/about-image.jpg) no-repeat;
+min-height: 650px;
+background-size: cover!important;
 }
 #home-2-content {
 margin-top: 50px;
-position: absolute;
+position: relative;
 }
 #bg-3{
   background: url(../img/player-image.jpg) no-repeat;

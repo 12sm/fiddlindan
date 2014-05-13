@@ -308,7 +308,7 @@ font-size: 18px;
    Primary Content
    ========================================================================== */
 
-.main { }
+.main {padding-top: 5%; }
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }

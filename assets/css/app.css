@@ -218,7 +218,7 @@ margin-top: 6%;
     border-radius: 25px;  
 }
 .slider-house {
-background: url(../img/player-slider-house.png) no-repeat;
+background: url(../img/Player-Slider-House.png) no-repeat;
 height: 125px;
 background-size: cover;
 background-position: center;
@@ -231,7 +231,7 @@ width: 60%;
 }
 input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none;
-background: url(../img/player-slider.png);
+background: url(../img/Player-Slider.png);
 width: 15px;
 height: 20px;
 }

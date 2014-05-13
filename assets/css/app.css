@@ -326,7 +326,8 @@ font-size: 18px;
    About
    ========================================================================== */
 .page-id-44{
-  background: url(../img/about-image.jpg) fixed cover;
+  background: url(../img/about-image.jpg) fixed;
+  background-size: cover;
 }
 /* ==========================================================================
    Posts

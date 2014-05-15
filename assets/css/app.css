@@ -499,6 +499,9 @@ list-style: none;
 padding: 0px!important;
 float: left;
 }
+#cbocBottomLeft, #cboxBottomCenter, #cboxBottomRight{
+  background: rgba(13,13,13,.7);
+}
 
 /* ==========================================================================
    Footer

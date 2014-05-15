@@ -26,7 +26,7 @@
   </div>
   <div class="row">
     <div class="col-sm-2 col-sm-offset-1">
-     <h2>From The Road</h2>
+     <h3>From The Road</h3>
     </div>
     <div class="col-sm-7">  
       <div class="photo-footer">

@@ -28,7 +28,7 @@ var Roots = {
         instagram_id: 16943201,
         thumb_width: 150,
         limit: 20,
-        link_type: img
+        link_type: 'img',
        });
     }
   },

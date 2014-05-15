@@ -504,9 +504,11 @@ margin: 0 5px;
 }
 .photo-footer-list>li {
 display: inline-block;
+margin-right: 15px;
 }
 ul.photo-footer-list {
 list-style: none;
+padding: 0px!important;
 }
 /* ==========================================================================
    WordPress Generated Classes

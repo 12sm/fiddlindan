@@ -49,7 +49,10 @@ var Roots = {
         link_type: 'img',
        });
 
-      $('.photos-page a').colorbox();
+      $('.photos-page a').colorbox({
+        maxWidth: '800px',
+        maxHeight: '600px',
+      });
     }
   },
   blog:{

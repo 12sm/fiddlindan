@@ -42,17 +42,21 @@ var Roots = {
   //On The Road
   page_id_72:{
     init: function(){
+
       $('.photos-page').embedagram({
         instagram_id: 16943201,
        thumb_width: 300,
         limit: 20,
         link_type: 'img',
+        success: function({
+          $('.photos-page a').colorbox({
+            maxWidth: '800px',
+            maxHeight: '600px',
+            });
+        })
        });
 
-      $('.photos-page a').colorbox({
-        maxWidth: '800px',
-        maxHeight: '600px',
-      });
+      
     }
   },
   blog:{

@@ -32,6 +32,9 @@ b{
 h3{
 font-size: 32px;
 }
+h4{
+font-size: 24px;
+}
 h2{
 font-size: 75px;
 line-height: 45px;
@@ -492,7 +495,9 @@ footer{
 #social ul {margin:0px; padding:0px; list-style: none;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
-
+footer h4{
+  float: left;
+}
 #menu-footer-nav>li>a {
 font-family: "Liberator";
 }

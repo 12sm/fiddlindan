@@ -20,7 +20,7 @@
   ?>
   </div> 
 
-      
+
     </div>
   </div>
   </div>
@@ -28,17 +28,13 @@
     <div class="col-sm-2 col-sm-offset-1">
      <h3>From The Road</h3>
     </div>
-    <div class="col-sm-7">  
+    <div class="col-sm-9">  
       <div class="photo-footer">
         <ul class="photo-footer-list">
         </ul>
+          <h4>More Photos from the Road</h4>
+                <i class="fa fa-chevron-right big-icon"></i>
       </div>
-    </div>
-    <div class="col-sm-1">
-      <h4>More Photos from the Road</h4>
-    </div>
-    <div class="col-sm-1">
-      <i class="fa fa-chevron-right big-icon"></i>
     </div>
   </div>
 </footer>

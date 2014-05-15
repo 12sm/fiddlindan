@@ -71,15 +71,13 @@ div.slide-background {
 min-height: 650px;
 background-size: cover!important;
 margin-top: -20px; 
-padding-top: 20%;
+padding-top: 26%;
 padding-left: 8%;
 }
 .headline-box {
 position: relative;
 padding: 10px;
 background: rgba(0,0,0,0.5);
-bottom: 75px;
-left: 100px;
 padding: 10px;
 max-width: 525px;
 }

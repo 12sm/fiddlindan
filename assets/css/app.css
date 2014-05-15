@@ -33,7 +33,7 @@ h3{
 font-size: 32px;
 }
 h4{
-font-size: 24px;
+font-size: 28px;
 }
 h2{
 font-size: 75px;
@@ -500,6 +500,12 @@ footer h4{
   max-width: 110px;
 margin-top: 0px;
 color: #313131;
+}
+footer a{
+  transition: color .5s ease;
+}
+footer a:hover{
+  color: #fff;
 }
 #menu-footer-nav>li>a {
 font-family: "Liberator";

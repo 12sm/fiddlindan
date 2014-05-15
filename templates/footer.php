@@ -32,8 +32,10 @@
       <div class="photo-footer">
         <ul class="photo-footer-list">
         </ul>
+        <a href="/road-photos/">
           <h4>More Photos from the Road</h4>
                 <i class="fa fa-angle-right big-icon"></i>
+        </a>
       </div>
     </div>
   </div>

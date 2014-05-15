@@ -497,6 +497,9 @@ footer{
 #social li a {padding: 10px;}
 footer h4{
   float: left;
+  max-width: 110px;
+margin-top: 0px;
+color: #313131;
 }
 #menu-footer-nav>li>a {
 font-family: "Liberator";
@@ -517,6 +520,11 @@ margin-right: 15px;
 ul.photo-footer-list {
 list-style: none;
 padding: 0px!important;
+float: left;
+}
+.big-icon {
+font-size: 150px;
+color: #313131;
 }
 /* ==========================================================================
    WordPress Generated Classes

@@ -40,7 +40,7 @@ var Roots = {
     }
   },
   //On The Road
-  page_id_72{
+  page_id_72: {
     init: function(){
       $('.photos-page').embedagram({
         instagram_id: 16943201,

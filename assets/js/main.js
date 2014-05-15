@@ -48,12 +48,12 @@ var Roots = {
        thumb_width: 300,
         limit: 20,
         link_type: 'img',
-        success: function({
+        success: function(){
           $('.photos-page a').colorbox({
             maxWidth: '800px',
             maxHeight: '600px',
             });
-        })
+        };
        });
 
       

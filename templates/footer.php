@@ -1,5 +1,5 @@
 <footer class="content-info container-fluid" role="contentinfo">
-  <div class="row">
+  <div class="row col">
     <div class="col-lg-12">
       <div class="row sidebar-footer">
       	<?php dynamic_sidebar('sidebar-footer'); ?>

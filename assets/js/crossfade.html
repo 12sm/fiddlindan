@@ -5,8 +5,8 @@
     <div class="row">
     <div class="col-sm-12">
       <div class="slider-body">
-        <i class="slider-control fa fa-play" onclick="sample[wpv-post-id].toggle();"></i>
-            <i class=" slider-control fa fa-pause hide" onclick="sample[wpv-post-id].toggle();"></i>
+        <i class="slider-control fa fa-play [wpv-post-id]" onclick="sample[wpv-post-id].toggle();"></i>
+            <i class=" slider-control fa fa-pause hide [wpv-post-id]" onclick="sample[wpv-post-id].toggle();"></i>
             <div class="slider-house">
           <div class="slider-section">
 <input type="range" min="0" max="100" value="100" onchange="sample[wpv-post-id].crossfade(this);">
@@ -45,7 +45,6 @@
 
 CrossfadeSample.prototype.play = function() {
 
-  console.log('.play function called');
   // Create two sources.
   this.ctl[wpv-post-id]1 = createSource(this.alpha);
   this.ctl[wpv-post-id]2 = createSource(this.dan);
@@ -81,7 +80,7 @@ CrossfadeSample.prototype.play = function() {
 
 CrossfadeSample.prototype.stop = function() {
   console.log('.stop function called');
-  $('.slider-control').toggleClass('hide');
+  
   var offName = this.ctl[wpv-post-id]1.source.stop ? 'stop' : 'noteOff';
   this.ctl[wpv-post-id]1.source[offName](0);
   this.ctl[wpv-post-id]2.source[offName](0);
@@ -98,7 +97,7 @@ CrossfadeSample.prototype.crossfade = function(element) {
 };
 
 CrossfadeSample.prototype.toggle = function() {
-
+$('.slider-control').toggleClass('hide');
   this.isPlaying ? this.stop() : this.play();
   this.isPlaying = !this.isPlaying;
 };

@@ -23,12 +23,12 @@ var Roots = {
   common: {
     init: function() {
       // JavaScript to be fired on all pages
-      /*
-      $('.photo-footer').embedagram({
-        instagram_id: 185380813,
+
+      $('.photo-footer-list').embedagram({
+        instagram_id: 16943201,
         thumb_width: 306,
         limit: 5
-       });*/
+       });
     }
   },
   // Home page

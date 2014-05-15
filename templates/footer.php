@@ -23,8 +23,24 @@
       <p class="credits">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>  |  <a href="http://12southmusic.com/" target="_blank">built by 12SM</a></p>
     </div>
   </div>
-  <div class="photo-footer">
-
+  </div>
+  <div class="row">
+    <div class="col-sm-3">
+     <h2>From The Road</h2>
+    </div>
+    <div class="col-sm-7">  
+      <div class="photo-footer">
+        <ul class="photo-footer-list">
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-1">
+      <h5>More Photos from the Road</h5>
+    </div>
+    <div class="col-sm-1">
+      <i class="fa fa-chevron-right big-icon"></i>
+    </div>
+  </div>
 </footer>
 
 <?php wp_footer(); ?>

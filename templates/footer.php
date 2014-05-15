@@ -35,7 +35,7 @@
       </div>
     </div>
     <div class="col-sm-1">
-      <h5>More Photos from the Road</h5>
+      <h4>More Photos from the Road</h4>
     </div>
     <div class="col-sm-1">
       <i class="fa fa-chevron-right big-icon"></i>

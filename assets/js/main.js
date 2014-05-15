@@ -48,6 +48,8 @@ var Roots = {
         limit: 20,
         link_type: 'img',
        });
+
+      $('.photos-page a').colorbox();
     }
   },
   blog:{

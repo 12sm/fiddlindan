@@ -492,7 +492,7 @@ display: none;
 }
 .photos-page>li {
 display: inline-block;
-margin-right: 15px;
+margin: 5px;
 }
 ul.photos-page {
 list-style: none;

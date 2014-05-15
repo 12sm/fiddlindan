@@ -27,7 +27,8 @@ var Roots = {
       $('.photo-footer-list').embedagram({
         instagram_id: 16943201,
         thumb_width: 150,
-        limit: 4
+        limit: 20,
+        link_type: img
        });
     }
   },
@@ -41,10 +42,10 @@ var Roots = {
   //On The Road
   page_id_72{
     init: function(){
-      $('.photo-footer-list').embedagram({
+      $('.photos-page').embedagram({
         instagram_id: 16943201,
         thumb_width: 150,
-        limit: 4
+
        });
     }
   },

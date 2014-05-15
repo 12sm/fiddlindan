@@ -490,6 +490,15 @@ display: none;
   background: url(../img/Footer-Image.jpg) no-repeat;
   background-size: cover;
 }
+.photos-page>li {
+display: inline-block;
+margin-right: 15px;
+}
+ul.photos-page {
+list-style: none;
+padding: 0px!important;
+float: left;
+}
 
 /* ==========================================================================
    Footer

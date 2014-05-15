@@ -25,7 +25,7 @@
   </div>
   </div>
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-2 col-sm-offset-1">
      <h2>From The Road</h2>
     </div>
     <div class="col-sm-7">  

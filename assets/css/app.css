@@ -502,7 +502,12 @@ display: inline-block;
 display: inline-block;
 margin: 0 5px;
 }
-
+.photo-footer-list>li {
+display: inline-block;
+}
+ul.photo-footer-list {
+list-style: none;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes

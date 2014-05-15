@@ -26,8 +26,8 @@ var Roots = {
 
       $('.photo-footer-list').embedagram({
         instagram_id: 16943201,
-        thumb_width: 306,
-        limit: 5
+        thumb_width: 150,
+        limit: 4
        });
     }
   },

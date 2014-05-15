@@ -18,12 +18,8 @@ function playSound(buffer, time) {
   var source = context.createBufferSource();
   source.buffer = buffer;
   source.connect(context.destination);
-  source.noteOn(0);
+  source.start(time);
 
-  context.oncomplete = function(e) {
-    var audioBuffer = e.renderedBuffer;
-  };
-  context.startRendering();
 }
 
 function loadSounds(obj, soundMap) {

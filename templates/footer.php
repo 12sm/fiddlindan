@@ -33,7 +33,7 @@
         <ul class="photo-footer-list">
         </ul>
           <h4>More Photos from the Road</h4>
-                <i class="fa fa-chevron-right big-icon"></i>
+                <i class="fa fa-angle-right big-icon"></i>
       </div>
     </div>
   </div>

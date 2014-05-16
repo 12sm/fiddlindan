@@ -361,9 +361,12 @@ padding-left: 50px;
 .hentry .byline { }
 .hentry .entry-content { }
 .hentry footer { }
-
+.single-post{
+    background: url(../img/BG-Music.jpg) fixed;
+    background-size: cover;
+}
 .blog{
-  background: url(../img/Footer-Image.jpg) fixed;
+  background: url(../img/BG-Music.jpg) fixed;
   background-size: cover;
 }
 

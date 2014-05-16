@@ -9,7 +9,7 @@
             <i class=" slider-control fa fa-pause hide [wpv-post-id]" onclick="sample[wpv-post-id].toggle();"></i>
             <div class="slider-house">
           <div class="slider-section">
-<input type="range" min="0" max="100" value="100" onclick="sample[wpv-post-id].crossfade(this);">
+<input type="range" min="0" max="100" value="100" onmousemove="sample[wpv-post-id].crossfade(this);">
 <img src="../assets/img/Player-Marks.png">
       </div>
       </div>
@@ -40,17 +40,13 @@
  queue.installPlugin(createjs.Sound);
  queue.on("complete", handleComplete, this);
  queue.loadFile({id:"alpha", src:'[types field="no-dan-mp3" output="raw"][/types]'});
- queue.loadFile({id:"alpha", src:'[types field="no-dan-mp3" output="raw"][/types]'});
- function handleComplete() {
-     createjs.Sound.play("alpha");
-     createjs.Sound.play("dan");
-     console.log('sounds loaded');
- }
+ queue.loadFile({id:"dan", src:'[types field="dan-mp3" output="raw"][/types]'});
+ function handleComplete() { }
 
             var CrossfadeSample = function() {
   loadSounds(this, {
-    alpha: '[types field="no-dan-mp3" output="raw"][/types]',
-    dan: '[types field="dan-mp3" output="raw"][/types]'
+    'alpha',
+    'dan'
   });
   this.isPlaying = false;
 }

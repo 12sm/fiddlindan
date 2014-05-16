@@ -36,17 +36,18 @@
         </div>
           <script>
 
-            var queue = new createjs.LoadQueue();
+             var queue = new createjs.LoadQueue();
  queue.installPlugin(createjs.Sound);
  queue.on("complete", handleComplete, this);
- queue.loadFile({id:"alpha", src:'[types field="no-dan-mp3" output="raw"][/types]'});
- queue.loadFile({id:"dan", src:'[types field="dan-mp3" output="raw"][/types]'});
+ queue.loadFile({name:"alpha", src:'[types field="no-dan-mp3" output="raw"][/types]'});
+ queue.loadFile({name:"dan", src:'[types field="dan-mp3" output="raw"][/types]'});
  function handleComplete() { }
 
             var CrossfadeSample = function() {
+             
   loadSounds(this, {
-    'alpha',
-    'dan'
+    alpha: queue.getResult("alpha"),
+    dan: queue.getResult("dan")
   });
   this.isPlaying = false;
 }
@@ -54,8 +55,8 @@
 CrossfadeSample.prototype.play = function() {
 
   // Create two sources.
-  this.ctl[wpv-post-id]1 = createSource(this.alpha);
-  this.ctl[wpv-post-id]2 = createSource(this.dan);
+  this.ctl[wpv-post-id]1 = createSource('alpha');
+  this.ctl[wpv-post-id]2 = createSource('dan');
   // Mute the second source.
   this.ctl[wpv-post-id]1.gainNode.gain.value = 0;
   // Start playback in a loop

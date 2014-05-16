@@ -36,18 +36,19 @@
         </div>
           <script>
 
-            
-  var CrossfadeSample = function() {
     var queue = new createjs.LoadQueue();
  queue.installPlugin(createjs.Sound);
- queue.on("complete", handleComplete, this);
+ queue.on("complete", loadSample, this);
  queue.loadFile({id:"alpha", src:'[types field="no-dan-mp3" output="raw"][/types]'});
  queue.loadFile({id:"dan", src:'[types field="dan-mp3" output="raw"][/types]'});
+
+  var CrossfadeSample = function() {
+    
  function handleComplete() {
  }
   loadSounds(this, {
-    alpha,
-    dan
+    alpha: alpha
+    dan: dan
   });
   this.isPlaying = false;
 }
@@ -116,7 +117,9 @@ $('.slider-control').toggleClass('hide');
           </script>
 
                       <script>
+                      function loadSample(){
 var sample[wpv-post-id] = new CrossfadeSample();
+};
 </script>
       
     </wpv-loop>

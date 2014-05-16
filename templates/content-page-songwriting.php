@@ -5,4 +5,8 @@
 <?php endwhile; ?>
 	</div>
 </div>
-<?php echo do_shortcode('[wpv-view name="music-page-songs"]'); ?>
+<div class="row music-view col">
+	<div class="col-sm-12">
+			<?php echo do_shortcode('[wpv-view name="music-page-songs"]'); ?>
+	</div>
+</div>

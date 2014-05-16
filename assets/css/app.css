@@ -369,13 +369,9 @@ padding-left: 50px;
   background: url(../img/BG-Music.jpg) fixed;
   background-size: cover;
 }
-
-.hentry time {
-font-size: 12px;
-width: 100%;
-display: block;
+.single-post .entry-title{
+  display: none;
 }
-
 body.single .hentry time {
 font-size: 16px;
 padding: 5px;
@@ -430,17 +426,6 @@ margin-top:5px;
 body.single .btn-primary:hover {
 background-color: #c9c9c9;
 } 
-
-h1.entry-title {
-text-transform: uppercase!important;
-font-weight: 100;
-word-spacing: .1em;
-color: #fff;
-font-size: 52px!important;
-text-align: left;
-background-color:#FFF;
-padding:1%;
-}
 
 .blog-post-content {
 margin-top: 20px;

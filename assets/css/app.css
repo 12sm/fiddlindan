@@ -478,7 +478,7 @@ background-color: #FFF;
 padding: 1%;
 }
 .excerpt a{
-  transision: color .5s ease;
+  transition: color .5s ease;
   color: #fff;
 }
 .excerpt a:hover, .excerpt h3:hover{

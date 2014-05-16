@@ -2,8 +2,38 @@
   [wpv-items-found]
   <!-- wpv-loop-start -->
     <wpv-loop>
-          <p><input type="button" onclick="sample[wpv-post-id].toggle();" value="Play/Pause">
-No Dan <input type="range" min="0" max="100" value="100" onchange="sample[wpv-post-id].crossfade(this);"> Dan</p>
+    <div class="row">
+    <div class="col-sm-12">
+      <div class="slider-body">
+        <i class="slider-control fa fa-play [wpv-post-id]" onclick="sample[wpv-post-id].toggle();"></i>
+            <i class=" slider-control fa fa-pause hide [wpv-post-id]" onclick="sample[wpv-post-id].toggle();"></i>
+            <div class="slider-house">
+          <div class="slider-section">
+<input type="range" min="0" max="100" value="100" onmousemove="sample[wpv-post-id].crossfade(this);">
+<img src="../assets/img/Player-Marks.png">
+      </div>
+      </div>
+  <ul class="dan-nodan">
+    <li>No Dan</li>
+    <li>Dan</li>
+  </ul>
+  </div>
+<div class="row session-meta">
+        <div class="col-sm-4">
+          <ul class="sesh-meta">
+            <li><b>Title</b>:[wpv-post-title]</li>
+            <li><b>BY</b>: Dan Hochlater</li>
+            <li><b>Instruments</b>:[wpv-post-taxonomy type="instruments" separator=", " format="text" show="name" order="asc"]</li>
+            <li><b>Genre</b>:[wpv-post-taxonomy type="genres" separator=", " format="text" show="name" order="asc"]</li>
+          </ul>
+        </div>
+        <div class="col-sm-8">
+          [types field="description"][/types]
+              </div>
+            </div>
+          
+        </div>
+        </div>
           <script>
             var CrossfadeSample = function() {
   loadSounds(this, {
@@ -14,6 +44,7 @@ No Dan <input type="range" min="0" max="100" value="100" onchange="sample[wpv-po
 }
 
 CrossfadeSample.prototype.play = function() {
+
   // Create two sources.
   this.ctl[wpv-post-id]1 = createSource(this.alpha);
   this.ctl[wpv-post-id]2 = createSource(this.dan);
@@ -32,11 +63,14 @@ CrossfadeSample.prototype.play = function() {
     source.buffer = buffer;
     // Turn on looping
     source.loop = true;
+    //source dependent toggle
+
+      $('.slider-control').toggleClass('hide');
+
     // Connect source to gain.
     source.connect(gainNode);
     // Connect gain to destination.
     gainNode.connect(context.destination);
-
     return {
       source: source,
       gainNode: gainNode
@@ -45,6 +79,8 @@ CrossfadeSample.prototype.play = function() {
 };
 
 CrossfadeSample.prototype.stop = function() {
+  console.log('.stop function called');
+  
   var offName = this.ctl[wpv-post-id]1.source.stop ? 'stop' : 'noteOff';
   this.ctl[wpv-post-id]1.source[offName](0);
   this.ctl[wpv-post-id]2.source[offName](0);
@@ -61,15 +97,18 @@ CrossfadeSample.prototype.crossfade = function(element) {
 };
 
 CrossfadeSample.prototype.toggle = function() {
+$('.slider-control').toggleClass('hide');
   this.isPlaying ? this.stop() : this.play();
   this.isPlaying = !this.isPlaying;
 };
             
 
           </script>
+
                       <script>
 var sample[wpv-post-id] = new CrossfadeSample();
 </script>
+      
     </wpv-loop>
   <!-- wpv-loop-end -->
   [/wpv-items-found]

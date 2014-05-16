@@ -12,7 +12,9 @@
 }
 
 body { }
-
+a:hover{
+  text-decoration: none!important;
+}
 h1,h2,h3,h4,h5,h6{
   font-family: 'Liberator';
   color: #ffffff;
@@ -475,7 +477,13 @@ text-align: left;
 background-color: #FFF;
 padding: 1%;
 }
-
+.excerpt a{
+  transision: color .5s ease;
+  color: #fff;
+}
+.excerpt a:hover{
+  color: #B8B8B8;
+}
 #respond {background-color:#FFF;}
 
 

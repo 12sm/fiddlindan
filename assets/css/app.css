@@ -75,6 +75,7 @@ margin-bottom: 0px;
 div.slide-background {
 min-height: 650px;
 background-size: cover!important;
+background-attachment: fixed!important;
 margin-top: -20px; 
 padding-top: 26%;
 padding-left: 8%;
@@ -94,6 +95,7 @@ color: #fff!important;
 background: url(../img/about-image.jpg) no-repeat;
 min-height: 650px;
 background-size: cover!important;
+background-attachment: fixed!important;
 }
 #home-2-content {
 margin-top: 50px;

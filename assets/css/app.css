@@ -357,8 +357,8 @@ padding-left: 50px;
    ========================================================================== */
 
 .hentry header { }
-.hentry time { }
-.hentry .byline { }
+.hentry time {display: none; }
+.hentry .byline {display: none; }
 .hentry .entry-content { }
 .hentry footer { }
 .single-post{
@@ -383,6 +383,7 @@ padding: 5px;
 .hentry p{
    word-spacing: 4px;
    line-height: 20px;
+   font-size: 16px;
 }
 .individual-post .post-footer .addthis_toolbox {
 float: right;
@@ -434,7 +435,7 @@ h1.entry-title {
 text-transform: uppercase!important;
 font-weight: 100;
 word-spacing: .1em;
-color: #878787;
+color: #fff;
 font-size: 52px!important;
 text-align: left;
 background-color:#FFF;

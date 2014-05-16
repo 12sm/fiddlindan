@@ -447,9 +447,10 @@ padding: 2%;
 .blog-wrap{
 background: url(../img/player-bg-square.png) repeat;
 padding: 2%;
+margin-top: 15px;
 }
 .individual-post{
-  margin-top: 15px;
+  /*margin-top: 15px;*/
 }
 .individual-post .excerpt {
 height: 155px;

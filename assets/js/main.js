@@ -24,6 +24,9 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
 
+      //social open in new window
+      $('.menu-').children().attr('target','_blank');
+
       $('.photo-footer-list').embedagram({
         instagram_id: 16943201,
         thumb_width: 150,

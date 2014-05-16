@@ -42,18 +42,16 @@
  queue.loadFile({id:"alpha", src:'[types field="no-dan-mp3" output="raw"][/types]'});
  queue.loadFile({id:"dan", src:'[types field="dan-mp3" output="raw"][/types]'});
  function handleComplete() {
-     createjs.Sound.play("sound");
-     var image = queue.getResult("myImage");
-     document.body.appendChild(image);
- }
-
-            var CrossfadeSample = function() {
+     var CrossfadeSample = function() {
   loadSounds(this, {
-    alpha: '[types field="no-dan-mp3" output="raw"][/types]',
-    dan: '[types field="dan-mp3" output="raw"][/types]'
+    alpha: 'alpha',
+    dan: 'dan'
   });
   this.isPlaying = false;
 }
+ }
+
+            
 
 CrossfadeSample.prototype.play = function() {
 

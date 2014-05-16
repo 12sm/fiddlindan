@@ -36,22 +36,24 @@
         </div>
           <script>
 
-
-  var CrossfadeSample = function() {
-    
-  var queue = new createjs.LoadQueue();
+            var queue = new createjs.LoadQueue();
  queue.installPlugin(createjs.Sound);
- queue.on("complete", loadComplete, this);
+ queue.on("complete", handleComplete, this);
  queue.loadFile({id:"alpha", src:'[types field="no-dan-mp3" output="raw"][/types]'});
- queue.loadFile({id:"dan", src:'[types field="dan-mp3" output="raw"][/types]'});
+ queue.loadFile({id:"alpha", src:'[types field="no-dan-mp3" output="raw"][/types]'});
+ function handleComplete() {
+     createjs.Sound.play("alpha");
+     createjs.Sound.play("dan");
+     console.log('sounds loaded');
+ }
+
+            var CrossfadeSample = function() {
+  loadSounds(this, {
+    alpha: '[types field="no-dan-mp3" output="raw"][/types]',
+    dan: '[types field="dan-mp3" output="raw"][/types]'
+  });
   this.isPlaying = false;
-  var alpha = alpha;
-  var dan = dan;
 }
-function loadComplete(){
-  console.log('loading is complete');
-}
-            
 
 CrossfadeSample.prototype.play = function() {
 

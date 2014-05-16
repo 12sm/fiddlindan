@@ -390,7 +390,6 @@ background-color:#FFF;
 }
 
 .addthis_toolbox {
-background-color: #FFF;
 display: block;
 width: 100%;
 opacity: .7;
@@ -459,7 +458,6 @@ overflow: hidden;
 .individual-post .post-footer {
 padding: 10px;
 text-align: left;
-border-top: 1px solid #ededed;
 }
 
 .individual-post .post-footer .post-date {

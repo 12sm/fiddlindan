@@ -444,8 +444,8 @@ padding: 2%;
 }
 
 .blog-wrap{
-background-color: #FFF;
-padding-top: 1%;
+background: url(../img/player-bg-square.png) repeat;
+padding: 2%;
 border: 1px solid rgb(238, 238, 238);
 }
 

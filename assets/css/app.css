@@ -95,7 +95,7 @@ background-color: rgba(13,115,138, .6);
 color: #fff!important;
 }
 .btn-read:hover{
-  background-color: rgb(63,63,63, .8);
+  background-color: rgba(63,63,63, .8);
 }
 #bg-2 {
 background: url(../img/about-image.jpg) no-repeat;

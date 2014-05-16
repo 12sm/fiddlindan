@@ -405,7 +405,7 @@ width:250px;
 
 .blog-img-container {
 height: 0px;
-background-position: 50% 0px!important;
+background-position: 50% 50%!important;
 padding-bottom: 60%;
 }
 .wp-post-image {

@@ -282,8 +282,8 @@ z-index: 500
 input[type='range']::-ms-thumb{
   -webkit-appearance: none;
 background: url(../img/Player-Slider.png) no-repeat;
-width:90px;
-height: 65px;
+width:25%;
+height: 100%;
 background-size:contain;
 z-index: 500
 }

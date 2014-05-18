@@ -26,7 +26,7 @@
 					<h2>Dan Can</h2>
 					<h2>Rock Your Track</h2>
 	<?php echo do_shortcode('[wpv-view name="home-audio-slider"]'); ?>
-	<button class="btn btn-read">Book Dan</button> <button class="btn btn-music">More Music</button>
+	<a href="#bg-4"><button class="btn btn-read">Book Dan</button></a> <a href="/sessions/"><button class="btn btn-music">More Music</button></a>
 		</div>
 	</div>
 </div>

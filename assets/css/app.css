@@ -97,6 +97,10 @@ color: #fff!important;
 .btn-read:hover{
   background-color: rgba(63,63,63, .8);
 }
+button.btn.btn-music:hover {
+color: #fff;
+transition: color .5s ease;
+}
 #bg-2 {
 background: url(../img/about-image.jpg) no-repeat;
 min-height: 650px;

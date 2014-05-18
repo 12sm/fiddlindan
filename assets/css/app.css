@@ -279,8 +279,8 @@ height: 65px;
 background-size:contain;
 z-index: 500
 }
-::-ms-thumb {
-background: #fff;
+input[type='range']::-ms-thumb {
+background: #fff!important;
 }
 input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none;

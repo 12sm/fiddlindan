@@ -281,10 +281,6 @@ z-index: 500
 }
 ::-ms-thumb{
 background: #fff;
-width:25%;
-height: 100%;
-background-size:contain;
-z-index: 500
 }
 input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none;

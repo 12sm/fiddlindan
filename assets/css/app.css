@@ -131,7 +131,7 @@ width: 100%;
   color: #7D7D7D;
 }
 #bg-4{
-  background-color: #000;
+  background: url(../img/player-bg-square.png);
 }
 .vfb-legend>h3 {
 text-align: center;

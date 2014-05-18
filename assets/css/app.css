@@ -279,7 +279,7 @@ height: 65px;
 background-size:contain;
 z-index: 500
 }
-input[type='range']::-ms-thumb{
+::-ms-thumb{
 background: #fff;
 width:25%;
 height: 100%;

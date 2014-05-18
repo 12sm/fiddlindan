@@ -265,6 +265,15 @@ border-radius: 65px;
 width: 80%;
 height: 25px;
 }
+input[type='range']::-moz-range-thumb{
+-webkit-appearance: none;
+background: url(../img/Player-Slider.png) no-repeat;
+width:90px;
+height: 65px;
+background-size:contain;
+z-index: 500
+}
+
 input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none;
 background: url(../img/Player-Slider.png) no-repeat;

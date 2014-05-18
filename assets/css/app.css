@@ -280,7 +280,7 @@ background-size:contain;
 z-index: 500
 }
 input[type='range']::-ms-thumb{
-background: url(../img/Player-Slider.png) no-repeat;
+background: #fff;
 width:25%;
 height: 100%;
 background-size:contain;

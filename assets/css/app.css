@@ -279,7 +279,7 @@ height: 65px;
 background-size:contain;
 z-index: 500
 }
-input[type='range']::-ms-track{
+input[type='range']::-ms-thumb{
   -webkit-appearance: none;
 background: url(../img/Player-Slider.png) no-repeat;
 width:90px;

@@ -57,6 +57,11 @@ border-left: 15px solid #3C3C3E;
 textarea:focus, input:focus{
     outline: 0;
 }
+#form_success {
+font-size: 75px;
+line-height: 57px;
+font-family: 'liberator';
+}
 /* ==========================================================================
    Home
    ========================================================================== */

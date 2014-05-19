@@ -472,6 +472,7 @@ font-size: 18px;
 .page-id-44{
   background: url(../img/about-image.jpg) fixed;
   background-size: cover;
+  background-position-x: -350px;
 }
 .page-id-44 .main {
 padding-left: 50px;
@@ -794,7 +795,6 @@ z-index: 0;
 .page-id-44 {
 background: url(../img/about-image.jpg) fixed;
 background-size: cover;
-background-position-x: -350px;
 }
 }
 

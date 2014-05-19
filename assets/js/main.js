@@ -24,6 +24,13 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
 
+      //Web Audio API test
+      Modernizr.load({
+  test: Modernizr.webaudio,
+  yep : ' ',
+  nope: '../vendor/waapisim.js'
+});
+
       //social open in new window
       $('.menu-').children().attr('target','_blank');
 

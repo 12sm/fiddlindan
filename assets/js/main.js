@@ -33,13 +33,22 @@ var Roots = {
 
       //social open in new window
       $('.menu-').children().attr('target','_blank');
-
+    if ($(window).width() <= 992){  
+        $('.photo-footer-list').embedagram({
+            instagram_id: 16943201,
+            thumb_width: 150,
+            limit: 3,
+            link_type: 'img',
+           });
+      } 
+      if ($(window).width() > 992){
       $('.photo-footer-list').embedagram({
         instagram_id: 16943201,
         thumb_width: 150,
         limit: 5,
         link_type: 'img',
        });
+      }
     }
   },
   // Home page

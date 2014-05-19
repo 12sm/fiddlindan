@@ -80,7 +80,6 @@ margin-bottom: 0px;
 div.slide-background {
 min-height: 650px;
 background-size: cover!important;
-background-attachment: fixed!important;
 margin-top: -20px; 
 padding-top: 26%;
 padding-left: 8%;

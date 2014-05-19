@@ -42,7 +42,7 @@ var Roots = {
       $('#top-slider-wrapper').flexslider({
     animation: "slide"
   });
-});
+
 
 
     //Smooth Scroll

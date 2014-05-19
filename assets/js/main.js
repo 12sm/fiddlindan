@@ -28,7 +28,7 @@ var Roots = {
       Modernizr.load({
   test: Modernizr.webaudio,
   yep : ' ',
-  nope: '/vendor/waapisim.js'
+  nope: '../js/vendor/waapisim.js'
 });
 
       //social open in new window

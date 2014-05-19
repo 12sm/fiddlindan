@@ -39,7 +39,7 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
-      $('#top-slider').flexslider({
+      $('#top-slider-wrapper').flexslider({
     animation: "slide"
   });
 });

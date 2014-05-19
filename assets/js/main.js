@@ -39,6 +39,12 @@ var Roots = {
   home: {
     init: function() {
       // JavaScript to be fired on the home page
+      $('#top-slider').flexslider({
+    animation: "slide"
+  });
+});
+
+
     //Smooth Scroll
     $(function() {
   $('a[href*=#]:not([href=#])').click(function() {

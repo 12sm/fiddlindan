@@ -273,9 +273,6 @@ position: absolute;
 border: 0px solid;
 width: 100%;
 }
-#menu-primary-navigation {
-margin-left: 12%;
-}
 #menu-primary-navigation>li, #menu-primary-navigation>li.active {
 background-color: rgba(95,118,134,.7);
 color: #fff;
@@ -855,6 +852,9 @@ height: 250px;
 margin-top: 0px;
 padding-right: 40px;
 padding-left: 40px;
+}
+#menu-primary-navigation {
+margin-left: 12%;
 }
 }
 

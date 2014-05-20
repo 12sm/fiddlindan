@@ -811,7 +811,7 @@ background-size: cover;
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px @screen-md) { 
+@media (min-width: @screen-md) { 
 .page-id-44{
   background-position-x:0px; 
 }
@@ -824,7 +824,7 @@ background-size: cover;
    .page-id-4{
   background-position-x:0px;
 }
-.photos-page>li {
+.photos-page > li {
 margin: 10px!important;
 
 }

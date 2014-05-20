@@ -25,10 +25,10 @@
   </div>
   </div>
   <div class="row">
-    <div class="col-sm-3">
+    <div class="col-sm-3 col-sm-offset-0 col-xs-offset-2">
      <h3>From The Road</h3>
     </div>
-    <div class="col-sm-9">  
+    <div class="col-sm-9 col-sm-offset-0 col-xs-8 col-xs-offset-2">  
       <div class="photo-footer">
         <ul class="photo-footer-list">
         </ul>

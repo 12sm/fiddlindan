@@ -77,7 +77,13 @@ var Roots = {
   });
 });
 
+    
+    }
+  },
 
+  songwriting:{
+    init: function(){
+      ('.bandcamp-embed').fitVids();
     }
   },
   //On The Road

@@ -635,7 +635,7 @@ display: none;
 }
 .photos-page>li {
 display: inline-block;
-margin: 5px;
+margin: 15px;
 }
 ul.photos-page {
 list-style: none;
@@ -823,6 +823,9 @@ background-size: cover;
    }
    .page-id-4{
   background-position-x:0px;
+}
+.photos-page>li {
+margin: 10px;
 }
 }
 

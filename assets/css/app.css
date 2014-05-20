@@ -635,7 +635,7 @@ display: none;
 }
 .photos-page>li {
 display: inline-block;
-margin: 30px;
+margin: 0px;
 }
 ul.photos-page {
 list-style: none;
@@ -771,6 +771,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) { 
 .col, .post-nav {
 margin: 0 10%;
+}
+.photos-page>li {
+margin: 30px!important;
 }
 h2{
 font-size: 75px;

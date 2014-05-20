@@ -222,7 +222,6 @@ position: relative;
   min-height: 650px;
 }
 #home-3-content {
-margin-top: 150px;
 position: relative;
 width: 100%;
 }
@@ -750,6 +749,7 @@ margin: 0 5px;
 .photo-footer-list>li {
 display: inline-block;
 margin-right: 15px;
+margin-top: 10px;
 }
 ul.photo-footer-list {
 list-style: none;
@@ -790,6 +790,9 @@ padding-left: 8%;
 }
 .col, .post-nav {
 margin: 0 10%;
+}
+#home-3-content{
+  margin-top: 150px;
 }
 .photos-page>li {
 margin: 30px!important;

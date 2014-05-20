@@ -806,7 +806,7 @@ font-size: 75px;
 line-height: 45px;
 }
 .slider-house {
-margin-top: -5px;
+margin-top: -25px!important;
 }
 .headline-box {
 position: relative;
@@ -823,6 +823,9 @@ line-height: 90px;
 #bg-2 {
 min-height: 650px;
 background-position-x:0px;
+}
+.slider-body {
+  height: 200px;
 }
 div.slider-section {
 position: relative;

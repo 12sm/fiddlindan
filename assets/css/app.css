@@ -385,7 +385,7 @@ input[type='range']::-moz-range-thumb{
 -webkit-appearance: none;
 background: url(../img/Player-Slider.png) no-repeat;
 width:90px;
-height: 65px;
+height: 45px;
 background-size:contain;
 z-index: 500
 }
@@ -397,7 +397,7 @@ input[type='range']::-webkit-slider-thumb {
 -webkit-appearance: none;
 background: url(../img/Player-Slider.png) no-repeat;
 width:90px;
-height: 65px;
+height: 45px;
 background-size:contain;
 z-index: 500
 }
@@ -871,6 +871,12 @@ padding-left: 40px;
 }
 #menu-primary-navigation {
 margin-left: 12%;
+}
+input[type='range']::-moz-range-thumb{
+height: 65px;
+}
+input[type='range']::-webkit-slider-thumb {
+height: 65px;
 }
 }
 

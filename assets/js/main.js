@@ -56,7 +56,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the home page
       $('#top-slider-wrapper').flexslider({
-    animation: "slide"
+    animation: "fade"
   });
 
 

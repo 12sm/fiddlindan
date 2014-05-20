@@ -83,8 +83,7 @@ var Roots = {
 
   songwriting:{
     init: function(){
-      console.log('songwriting function firing');
-      $('.bandcamp-embed').fitVids();
+      //Code here
     }
   },
   //On The Road

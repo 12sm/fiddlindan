@@ -811,7 +811,7 @@ background-size: cover;
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { 
+@media (min-width: 992px @screen-md) { 
 .page-id-44{
   background-position-x:0px; 
 }

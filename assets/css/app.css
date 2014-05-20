@@ -825,7 +825,7 @@ background-size: cover;
   background-position-x:0px;
 }
 .photos-page>li {
-margin: 10px;
+margin: 10px!important;
 
 }
 }

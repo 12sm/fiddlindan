@@ -815,8 +815,8 @@ z-index: 0;
 background: url(../img/about-image.jpg) fixed;
 background-size: cover;
 }
-.photos-cols{
-  padding: inherit!important;
+.photos-cols {
+padding: 15px!important;
 }
 }
 

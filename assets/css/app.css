@@ -257,6 +257,9 @@ background-color: rgba(0,0,0,0);
 border: 1px solid #414141;
 width: 100%;
 }
+li.vfb-item.vfb-item-secret {
+display: none!important;
+}
 
 /* ==========================================================================
    Header
@@ -485,7 +488,9 @@ padding-left: 50px;
     background: url(../img/BG-Music.jpg) no-repeat;
     background-size: cover
    }
-
+   .songwriting-body{
+    text-align: center!important;
+   }
 /* ==========================================================================
    Posts
    ========================================================================== */
@@ -803,6 +808,9 @@ background-size: cover;
 .page-id-44{
   background-position-x:0px; 
 }
+.songwriting-body{
+    text-align: right;
+   }
 }
 
 /* Large devices (large desktops, 1200px and up) */

@@ -5,6 +5,7 @@
       	<?php dynamic_sidebar('sidebar-footer'); ?>
     </div>
      <div class="row">
+     <div class="col-sm-2">
       <div id="social" class="social-nav">
   <?php
      if (has_nav_menu('social_navigation')) :
@@ -12,6 +13,8 @@
      endif;
   ?>
     </div>
+    </div>
+    <div class="col-sm-6">
     <div class="footer-nav">    
   <?php
      if (has_nav_menu('footer_navigation')) :
@@ -19,6 +22,7 @@
      endif;
   ?>
   </div> 
+  </div>
 
 
     </div>

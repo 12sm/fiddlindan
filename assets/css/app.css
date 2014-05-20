@@ -715,7 +715,7 @@ footer{
   background: url(../img/Footer-Image.jpg) no-repeat;
   background-size: cover;
 }
-#social ul {margin:0px; padding:0px; list-style: none;}
+#social ul {margin:0px; padding:0px; list-style: none; margin-left: 40px;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 footer h4{
@@ -783,6 +783,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   footer h3 {
 margin-left: 25px;
 }
+#social ul {margin:0px;}
   div.slide-background {
 min-height: 650px;
 background-size: cover!important;

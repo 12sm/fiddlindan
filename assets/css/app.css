@@ -207,7 +207,6 @@ background: url(../img/about-image.jpg) no-repeat;
 min-height: 650px;
 min-height: 500px;
 background-size: cover!important;
-background-attachment: fixed!important;
 background-position-x: -575px;
 }
 #home-2-content {

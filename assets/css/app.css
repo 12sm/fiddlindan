@@ -810,7 +810,7 @@ padding-bottom: 625px;
 margin-top: -55px;
 }
 .headline-box {
-position: absolute;
+position: relative;
 bottom: 150px;
 left: 75px;
 padding: 10px;

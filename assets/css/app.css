@@ -643,6 +643,9 @@ padding: 0px!important;
 float: left;
 }
 #cboxOverlay{ visibility: visible; opacity: 0.5 !important;}
+.photos-col{
+  padding: 3px!important;
+}
 
 
 /* ==========================================================================

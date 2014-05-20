@@ -210,6 +210,7 @@ background-size: cover!important;
 background-position-x: -575px;
 }
 #home-2-content {
+margin-top: 110px;
 margin-top: 50px;
 position: relative;
 }
@@ -793,6 +794,9 @@ margin: 0 10%;
 }
 .photos-page>li {
 margin: 30px!important;
+}
+#home-2-content {
+margin-top: 110px;
 }
 .page-id-44 .main {
 padding-left: 50px;

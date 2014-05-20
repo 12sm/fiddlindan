@@ -879,4 +879,8 @@ margin: 10px!important;
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+  .slide-background{
+min-height: 845px;
+}
+ }

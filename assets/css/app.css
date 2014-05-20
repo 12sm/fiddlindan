@@ -636,6 +636,8 @@ display: none;
 .photos-page>li {
 display: inline-block;
 margin: 0px;
+margin-top: 15px;
+
 }
 ul.photos-page {
 list-style: none;
@@ -813,7 +815,9 @@ z-index: 0;
 background: url(../img/about-image.jpg) fixed;
 background-size: cover;
 }
-
+.photos-cols{
+  padding: inherit!important;
+}
 }
 
 /* Medium devices (desktops, 992px and up) */

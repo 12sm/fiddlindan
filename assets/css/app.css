@@ -491,6 +491,9 @@ padding-left: 50px;
    .songwriting-body>*{
     text-align: center!important;
    }
+   .bandcamp-embed{
+    width: 80%;
+   }
    
 /* ==========================================================================
    Posts

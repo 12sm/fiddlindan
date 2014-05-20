@@ -293,6 +293,12 @@ padding: 5px!important;
 .navbar-header {
 background-color: rgba(95,118,134,0.7);
 }
+ul#menu-primary-navigation {
+margin-top: 0px;
+}
+button.navbar-toggle {
+background-color: #fff;
+}
 /* ==========================================================================
    Content
    ========================================================================== */

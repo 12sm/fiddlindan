@@ -487,6 +487,7 @@ padding-left: 50px;
    .page-id-33{
     background: url(../img/BG-Music.jpg) no-repeat;
     background-size: cover
+    background-position-x: -125px;
    }
    .songwriting-body>*{
     text-align: center!important;
@@ -814,6 +815,9 @@ background-size: cover;
 }
 .songwriting-body>*{
     text-align: right;
+   }
+   .page-id-33{
+    background-position-x: 0px;
    }
 }
 

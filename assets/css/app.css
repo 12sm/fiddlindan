@@ -482,9 +482,6 @@ font-size: 18px;
   background-size: cover;
   background-position-x: -350px;
 }
-.page-id-44 .main {
-padding-left: 50px;
-}
 
 /* ==========================================================================
    Songwriting
@@ -799,6 +796,9 @@ margin: 0 10%;
 }
 .photos-page>li {
 margin: 30px!important;
+}
+.page-id-44 .main {
+padding-left: 50px;
 }
 h2{
 font-size: 75px;

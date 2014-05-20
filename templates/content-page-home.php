@@ -4,7 +4,7 @@
 	</div>
 </div>
 <div class="row" id="bg-2">
-	<div class="col-sm-6 col-sm-offset-1">
+	<div class=" col-xs-8 col-sm-6 col-sm-offset-1">
 		<div id="home-2-content">
 		<?php
 		$page_id = 44;  //Page ID

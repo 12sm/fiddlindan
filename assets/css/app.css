@@ -768,7 +768,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { 
+@media (min-width: 768px) { 
 .col, .post-nav {
 margin: 0 10%;
 }
@@ -811,7 +811,7 @@ background-size: cover;
 }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: @screen-md) { 
+@media (min-width: 992px) { 
 .page-id-44{
   background-position-x:0px; 
 }
@@ -824,11 +824,10 @@ background-size: cover;
    .page-id-4{
   background-position-x:0px;
 }
-.photos-page > li {
+.photos-page>li {
 margin: 10px!important;
-
 }
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: @screen-lg) { }
+@media (min-width: 1200px) { }

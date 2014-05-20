@@ -177,7 +177,7 @@ margin-bottom: 0px;
   padding: 0;
 }
 div.slide-background {
-min-height: 650px;
+min-height: 350px;
 background-size: cover!important;
 margin-top: -20px; 
 padding-top: 26%;
@@ -224,6 +224,7 @@ position: relative;
 #home-3-content {
 position: relative;
 width: 100%;
+margin-bottom: 15px;
 }
 .btn.btn-music{
   background-color: #3F3F3F;
@@ -731,9 +732,7 @@ footer a:hover, footer h4:hover, footer i:hover{
 }
 footer h3 {
 font-size: 65px;
-line-height: 55px;
-margin-left: 25px;
-}
+line-height: 55px;}
 #menu-footer-nav>li>a {
 font-family: "Liberator";
 }
@@ -781,6 +780,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+  footer h3 {
+margin-left: 25px;
+}
   div.slide-background {
 min-height: 650px;
 background-size: cover!important;

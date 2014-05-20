@@ -759,6 +759,9 @@ float: left;
 font-size: 150px;
 color: #313131;
 }
+ul.vfb-section.vfb-section-2 {
+padding-left: 0px;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes

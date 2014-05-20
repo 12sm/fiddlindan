@@ -815,9 +815,7 @@ bottom: 150px;
 left: 75px;
 padding: 10px;
 background: rgba(0,0,0,0.5);
-}
-div.slide-background {
-min-height: 650px;
+max-width: 525px;
 }
 h1 {
 font-size: 115px;

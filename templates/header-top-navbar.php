@@ -1,6 +1,7 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
   <div class="container-fluid">
     <div class="navbar-header">
+    <a class="brand" href="<?php echo home_url(); ?>/"><?php bloginfo('name'); ?></a>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>

@@ -566,6 +566,9 @@ padding-bottom: 60%;
 }
 .wp-post-image {
 margin-bottom: 25px;
+padding: 1%;
+max-width: 50%;
+float: left;
 }
 
 body.single .btn-primary {

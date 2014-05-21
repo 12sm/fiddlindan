@@ -268,6 +268,7 @@ margin: 0;
 position: absolute;
 border: 0px solid;
 width: 100%;
+position: fixed;
 }
 .dropdown-nav-col {
 width: 100%;
@@ -810,6 +811,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .home-content{
   padding-top: 50px;
   padding-bottom: 25px;
+}
+.banner {
+position: absolute;
 }
 .photos-page>li {
 width: 33%;

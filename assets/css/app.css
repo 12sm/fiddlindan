@@ -654,7 +654,8 @@ margin-top: 15px;
 ul.photos-page {
 list-style: none;
 padding: 0px!important;
-float: left;
+margin: 0 auto;
+width: inherit;
 }
 #cboxOverlay{ visibility: visible; opacity: 0.5 !important;}
 .photos-cols{

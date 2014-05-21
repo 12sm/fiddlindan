@@ -443,8 +443,8 @@ margin: 2% 0px;
 
 .slider-house {
 background: url(../img/Player-Slider-House.png) no-repeat;
-height: 170px;
-background-size: contain;
+height: 122px;
+max-width: 722px;
 background-position: center;
 margin-top: -55px;
 }

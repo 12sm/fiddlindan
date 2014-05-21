@@ -507,7 +507,7 @@ color: #77F871;
 .slider-body i {
 cursor: pointer;
 margin-left: 25px;
-margin-top: 7px;
+margin-top: 10px;
 margin-left: 25px;
 }
 
@@ -964,7 +964,7 @@ line-height: 45px;
 }
 
 .slider-house {
-margin-top: -25px!important;
+margin-top: -5px!important;
 }
 
 .headline-box {
@@ -988,7 +988,8 @@ background-position-x:0px;
 }
 
 .slider-body {
-  height: 200px;
+height: 160px;
+width: 82%;
 }
 
 div.slider-section {

@@ -786,6 +786,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   footer h3 {
 margin-left: 25px;
 }
+.home-content{
+  padding-top: 50px;
+  padding-bottom: 25px;
+}
 div.navbar-header {
 background-color: rgba(95,118,134,0);
 }
@@ -797,14 +801,8 @@ padding-top: 35%;
 .col, .post-nav {
 margin: 0 10%;
 }
-#home-3-content{
-  margin-top: 150px;
-}
 .photos-page>li {
 margin: 30px!important;
-}
-#home-2-content {
-margin-top: 110px;
 }
 .page-id-44 .main {
 padding-left: 50px;

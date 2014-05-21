@@ -494,7 +494,13 @@ border: transparent;
 
 i.fa.fa-play {
 color: #22C618;
-font-size: 36px;
+font-size: 18px;
+text-shadow: 0px 0px 8px #2DBE4A;
+}
+
+i.fa.fa-play:hover {
+text-shadow: 0px 0px 10px #DFF1E3;
+color: #77F871;
 }
 
 .slider-body i {
@@ -506,7 +512,14 @@ margin-left: 25px;
 
 .fa.fa-pause {
 color: red;
-font-size: 36px;
+font-size: 18px;
+text-shadow: 0 0 8px #B42828;
+}
+
+.fa.fa-pause:hover {
+color: rgb(255, 50, 50);
+font-size: 18px;
+text-shadow: 0 0 8px #FC6060;
 }
 
 div.slider-section {

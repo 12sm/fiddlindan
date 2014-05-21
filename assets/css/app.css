@@ -311,6 +311,9 @@ background-color: #fff;
   background-size: cover!important;
   background-position-x: -1000px;
 }
+.page-id-4 .main{
+padding-bottom: 0%;
+}
 .page-id-4 .content {
 margin-top: 6%;
 }
@@ -877,12 +880,12 @@ height: 65px;
 }
 .songwriting-body>*{
     text-align: right;
-   }
-   .page-id-33{
-    background-position-x: 0px;
-   }
-   .page-id-4{
-  background-position-x:0px;
+ }
+ .page-id-33{
+  background-position-x: 0px;
+ }
+  .page-id-4 {
+background-position-x: 54%;
 }
 .photos-page>li {
 margin: 10px!important;

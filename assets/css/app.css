@@ -275,6 +275,7 @@ padding: 0px;
 margin: 0px;
 }
 a.brand {
+float: left;
 font-family: 'Liberator';
 color: #fff;
 text-decoration: none;
@@ -823,7 +824,6 @@ min-height: 650px;
 padding-top: 35%;
 }
 .dropdown-nav-col {
-width: inherit;
 padding: inherit;
 margin: inherit;
 }

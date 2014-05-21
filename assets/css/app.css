@@ -335,6 +335,10 @@ height: 30px;
 margin-right: 3px;
 }
 
+#menu-primary-navigation>li.active {
+background-color: rgb(14, 145, 163);
+}
+
 #menu-primary-navigation>li>a:hover {
 background-color: rgba(13,115,138, .6);
 height: 30px;
@@ -869,7 +873,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
-.home-content{
+.home-content {
   padding-top: 50px;
   padding-bottom: 25px;
 }
@@ -888,7 +892,8 @@ background-color: rgba(95,118,134,0);
 }
 
 #social ul {margin:0px;}
-  div.slide-background {
+
+div.slide-background {
 min-height: 650px; 
 padding-top: 35%;
 }
@@ -981,7 +986,7 @@ padding-left: 40px;
 }
 
 #menu-primary-navigation {
-margin-left: 12%;
+margin-left: 9.3%;
 }
 
 input[type='range']::-moz-range-thumb{

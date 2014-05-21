@@ -12,33 +12,41 @@
 }
 
 body { }
+
 a:hover{
   text-decoration: none!important;
 }
-h1,h2,h3,h4,h5,h6{
+
+h1, h2, h3, h4, h5, h6{
   font-family: 'Liberator';
   color: #ffffff;
 }
-p{
+
+p {
   font-family: 'arial';
   color: #fff;
   line-height: 20px;
 }
+
 h1 {
 font-size: 45px;
 line-height: 35px;
 }
+
 h2 {
 font-size: 40px;
 line-height: 31px;
 }
-b{
+
+b {
   font-family: 'liberator';
 }
-h3{
+
+h3 {
 font-size: 32px;
 }
-h4{
+
+h4 {
 font-size: 28px;
 }
 
@@ -49,12 +57,15 @@ border: 0px solid !important;
 border-radius: 0px!important;
 padding: 4px 6px!important;
 }
-blockquote{
+
+blockquote {
 border-left: 15px solid #3C3C3E;
 }
-textarea:focus, input:focus{
+
+textarea:focus, input:focus {
     outline: 0;
 }
+
 #form_success {
 font-size: 30px;
 line-height: 40px;
@@ -270,11 +281,13 @@ border: 0px solid;
 width: 100%;
 position: fixed;
 }
+
 .dropdown-nav-col {
 width: 100%;
 padding: 0px;
 margin: 0px;
 }
+
 a.brand {
 float: left;
 font-family: 'Liberator';
@@ -283,34 +296,50 @@ text-decoration: none;
 font-size: 26px;
 margin-left: 5.33%;
 }
-#menu-primary-navigation>li, #menu-primary-navigation>li.active {
+
+#menu-primary-navigation>li, 
+#menu-primary-navigation>li.active {
 background-color: rgba(95,118,134,.7);
 color: #fff;
 font-family: 'liberator';
 height: 30px;
 margin-right: 3px;
 }
+
+#menu-primary-navigation>li>a:hover {
+background-color: rgba(13,115,138, .6);
+height: 30px;
+}
+
 #menu-primary-navigation>li>a {
 color: #fff;
 padding: 6px 14px;
 font-size: 16px;
 text-align: center;
 }
+
 li.menu->a {
 padding: 5px!important;
 }
-.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus{
+
+.navbar-default .navbar-nav>.active>a, 
+.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a:focus {
   background: transparent!important;
 }
+
 .navbar-header {
 background-color: rgba(95,118,134,0.7);
 }
+
 ul#menu-primary-navigation {
 margin-top: 0px;
 }
+
 button.navbar-toggle {
 background-color: #fff;
 }
+
 /* ==========================================================================
    Content
    ========================================================================== */

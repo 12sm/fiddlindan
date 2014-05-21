@@ -842,41 +842,52 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   padding-top: 50px;
   padding-bottom: 25px;
 }
+
 .banner {
 position: absolute;
 }
+
 .photos-page>li {
 width: 33%;
 margin: 10px!important;
 }
+
 div.navbar-header {
 background-color: rgba(95,118,134,0);
 }
+
 #social ul {margin:0px;}
   div.slide-background {
 min-height: 650px; 
 padding-top: 35%;
 }
+
 .dropdown-nav-col {
 padding: inherit;
 margin: inherit;
 }
+
 a.brand {
   display: none;
 }
+
 .col, .post-nav {
 margin: 0 10%;
 }
+
 .page-id-44 .main {
 padding-left: 50px;
 }
+
 h2{
 font-size: 75px;
 line-height: 45px;
 }
+
 .slider-house {
 margin-top: -25px!important;
 }
+
 .headline-box {
 position: relative;
 bottom: 150px;
@@ -884,17 +895,23 @@ padding: 10px;
 background: rgba(0,0,0,0.5);
 max-width: 525px;
 }
+
+
+
 h1 {
 font-size: 115px;
 line-height: 90px;
 }
+
 #bg-2 {
 min-height: 650px;
 background-position-x:0px;
 }
+
 .slider-body {
   height: 200px;
 }
+
 div.slider-section {
 position: relative;
 top: 70px;
@@ -902,62 +919,78 @@ margin-left: 100px;
 width: 90%;
 z-index: 0;
 }
+
 .page-id-44 {
 background: url(../img/about-image.jpg) fixed;
 background-size: cover;
 }
+
 .photos-cols {
 padding: 15px!important;
 }
+
 input[type="range"] {
 width: 80%;
 height: 25px;
 }
+
 div.slider-section {
 top: 70px;
 left: 0px;
 }
+
 .slider-body {
 height: 250px;
 }
+
 .dan-nodan {
 margin-top: 0px;
 padding-right: 40px;
 padding-left: 40px;
 }
+
 #menu-primary-navigation {
 margin-left: 12%;
 }
+
 input[type='range']::-moz-range-thumb{
 height: 65px;
 }
+
 input[type='range']::-webkit-slider-thumb {
 height: 65px;
 }
+
 }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
-.page-id-44{
+
+.page-id-44 {
   background-position-x:0px; 
 }
+
 .photos-page>li {
 width: 22%;
 margin: 30px!important;
-
 }
-.songwriting-body>*{
+
+.songwriting-body>* {
     text-align: right;
- }
- .page-id-33{
+}
+ 
+ .page-id-33 {
   background-position-x: 0px;
- }
-  .page-id-4 {
+}
+  
+.page-id-4 {
 background-position-x: 54%;
 }
+
 .photos-page>li {
 margin: 10px!important;
 }
+
 }
 
 /* Large devices (large desktops, 1200px and up) */

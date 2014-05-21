@@ -10,7 +10,7 @@
       </button>
     </div>
   <div class="row">
-    <div class="col-sm-11 col-sm-offset-1">
+    <div class="col-sm-11 dropdown-nav-col col-sm-offset-1">
       <nav class="collapse navbar-collapse" role="navigation">
         <?php
           if (has_nav_menu('primary_navigation')) :

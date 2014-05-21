@@ -269,6 +269,11 @@ position: absolute;
 border: 0px solid;
 width: 100%;
 }
+.dropdown-nav-col {
+width: 100%;
+padding: 0px;
+margin: 0px;
+}
 a.brand {
 font-family: 'Liberator';
 color: #fff;
@@ -816,6 +821,14 @@ background-color: rgba(95,118,134,0);
   div.slide-background {
 min-height: 650px; 
 padding-top: 35%;
+}
+.dropdown-nav-col {
+width: inherit;
+padding: inherit;
+margin: inherit;
+}
+a.brand {
+  display: none;
 }
 .col, .post-nav {
 margin: 0 10%;

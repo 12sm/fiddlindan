@@ -553,11 +553,12 @@ display:inline
 font-family: 'liberator';
 font-size: 28px;
 margin-top: -15px;
+opacity:.8;
 }
-
 
 .dan-nodan>li:nth-child(1) {
 float: left;
+padding-left:2%
 }
 
 .dan-nodan>li:nth-child(2) {
@@ -570,6 +571,7 @@ text-align: center;
 
 .dan-nodan>li:nth-child(3) {
 float: right;
+padding-right:2%
 }
 
 .session-meta {

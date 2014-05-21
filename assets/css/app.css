@@ -182,7 +182,6 @@ padding-top: 26%;
 }
 .headline-box {
 position: relative;
-padding: 10px;
 background: rgba(0,0,0,0.5);
 padding: 10px;
 max-width: 230px;
@@ -815,7 +814,6 @@ margin-top: -25px!important;
 .headline-box {
 position: relative;
 bottom: 150px;
-left: 75px;
 padding: 10px;
 background: rgba(0,0,0,0.5);
 max-width: 525px;

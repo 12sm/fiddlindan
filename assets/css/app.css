@@ -304,6 +304,7 @@ color: #fff;
 font-family: 'liberator';
 height: 30px;
 margin-right: 3px;
+transition:background-color .3s ease;
 }
 
 #menu-primary-navigation>li>a:hover {

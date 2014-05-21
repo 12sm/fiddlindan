@@ -649,17 +649,21 @@ display: none;
 display: inline-block;
 margin: 0px;
 margin-top: 15px;
-
+width: 100%;
 }
 ul.photos-page {
 list-style: none;
 padding: 0px!important;
 margin: 0 auto;
-width: inherit;
+width: 90%;
 }
 #cboxOverlay{ visibility: visible; opacity: 0.5 !important;}
 .photos-cols{
   padding: 3px!important;
+}
+.photos-page img{
+width: 100%;
+height: auto;
 }
 
 
@@ -794,6 +798,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
   padding-top: 50px;
   padding-bottom: 25px;
 }
+.photos-page>li {
+width: 33%;
+}
 div.navbar-header {
 background-color: rgba(95,118,134,0);
 }
@@ -881,6 +888,9 @@ height: 65px;
 @media (min-width: 992px) { 
 .page-id-44{
   background-position-x:0px; 
+}
+.photos-page>li {
+width: 18%;
 }
 .songwriting-body>*{
     text-align: right;

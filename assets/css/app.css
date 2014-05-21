@@ -56,8 +56,8 @@ textarea:focus, input:focus{
     outline: 0;
 }
 #form_success {
-font-size: 75px;
-line-height: 57px;
+font-size: 30px;
+line-height: 40px;
 font-family: 'liberator';
 }
 

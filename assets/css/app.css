@@ -435,10 +435,10 @@ margin-top: 6%;
 background: url(../img/broken_noise.png) repeat;
 height: 223px!important;
 border-radius: 5px;
-/* background-size: cover; */
 border: 2px solid #414141;
 -webkit-box-shadow: 0 0 20px #818181;
 box-shadow: 0 0 20px #818181;
+margin: 2% 0px;
 }
 
 .slider-house {
@@ -546,6 +546,7 @@ padding-right: 10px;
 padding-left: 10px;
 margin-top: -35px;
 opacity: .4;
+display:inline
 }
 
 .dan-nodan>li {
@@ -554,11 +555,20 @@ font-size: 28px;
 margin-top: -15px;
 }
 
+
 .dan-nodan>li:nth-child(1) {
 float: left;
 }
 
 .dan-nodan>li:nth-child(2) {
+float: left;
+margin-left: 27%;
+font-size: 12px;
+/* margin: 0 auto; */
+text-align: center;
+}
+
+.dan-nodan>li:nth-child(3) {
 float: right;
 }
 
@@ -1007,7 +1017,7 @@ left: 0px;
 }
 
 .slider-body {
-height: 250px;
+height: 210px!important;
 }
 
 .dan-nodan {

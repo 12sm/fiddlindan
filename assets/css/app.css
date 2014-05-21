@@ -800,6 +800,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 }
 .photos-page>li {
 width: 33%;
+margin: 10px!important;
 }
 div.navbar-header {
 background-color: rgba(95,118,134,0);
@@ -811,9 +812,6 @@ padding-top: 35%;
 }
 .col, .post-nav {
 margin: 0 10%;
-}
-.photos-page>li {
-margin: 30px!important;
 }
 .page-id-44 .main {
 padding-left: 50px;
@@ -890,7 +888,9 @@ height: 65px;
   background-position-x:0px; 
 }
 .photos-page>li {
-width: 18%;
+width: 22%;
+margin: 30px!important;
+
 }
 .songwriting-body>*{
     text-align: right;

@@ -708,13 +708,19 @@ font-size: 14px;
 .hentry header { }
 .hentry time {display: none; }
 .hentry .byline {display: none; }
-.hentry .entry-content { }
+
+.hentry .hentry .entry-content {
+	padding: 1%;
+	background-color: #000;
+}
+
 .hentry footer { }
 .single-post {
 	background: url(../img/BG-Music.jpg) no-repeat;
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}
+
 .blog{
   background: url(../img/BG-Music.jpg) fixed;
   background-size: cover;
@@ -724,12 +730,16 @@ body.single-post .wrap {margin:0 auto;padding:0 10%;}
   display: none;
 }
 
+.entry-content h2 {
+line-height: .8;
+}
+
 body.single .hentry time {
 font-size: 16px;
 padding: 5px;
 }
 
-.hentry p{
+.hentry p {
    word-spacing: 4px;
    line-height: 20px;
    font-size: 16px;
@@ -767,9 +777,9 @@ padding-bottom: 60%;
 
 .wp-post-image {
 margin-bottom: 25px;
-padding: 1%;
+padding: 0 0 1% 1%;
 max-width: 50%;
-float: left;
+float: right;
 }
 
 body.single .btn-primary {
@@ -837,6 +847,12 @@ padding: 1%;
 
 body.category-news .addthis_default_style .at15t_compact {
 display: none;
+}
+
+div#disqus_thread {
+padding: 3%;
+background-color: rgba(255,255,255,.7);
+margin-top: 3%;
 }
 
 /* ==========================================================================

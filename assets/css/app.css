@@ -716,7 +716,7 @@ font-size: 14px;
 
 .hentry footer { }
 .single-post {
-	background: url(../img/BG-Music.jpg) no-repeat;
+	background: url(../img/internal-bg.jpg) no-repeat;
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}

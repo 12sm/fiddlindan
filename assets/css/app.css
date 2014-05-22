@@ -219,8 +219,11 @@ max-width: 230px;
 .btn.btn-read {
 background-color: #107b93;
 color: #fff!important;
-height: 40px;
-padding: 1%!important;
+padding: 1% 2%!important;
+font-family: "liberator";
+font-size: 24px;
+height: 50px;
+border-radius: 0px;
 }
 
 .btn-read:hover {
@@ -259,8 +262,13 @@ margin-bottom: 15px;
 }
 
 .btn.btn-music {
-  background-color: #3F3F3F;
-  color: #7D7D7D;
+background-color: #3F3F3F;
+color: #7D7D7D;
+padding: 1% 2%!important;
+font-family: "liberator";
+font-size: 24px;
+height: 50px;
+border-radius: 0px;
 }
 
 #bg-4 {

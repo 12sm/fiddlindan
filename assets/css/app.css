@@ -710,18 +710,19 @@ font-size: 14px;
 .hentry .byline {display: none; }
 
 .hentry .entry-content {
-	padding: 1%;
+	padding: 3% 5%;
 	background-color: rgba(0,0,0,.4);
 }
 
 .hentry footer { }
+
 .single-post {
 	background: url(../img/internal-bg.jpg) no-repeat;
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}
 
-.blog{
+.blog {
   background: url(../img/BG-Music.jpg) fixed;
   background-size: cover;
 }
@@ -740,9 +741,11 @@ padding: 5px;
 }
 
 .hentry p {
-   word-spacing: 4px;
-   line-height: 20px;
-   font-size: 16px;
+word-spacing: 4px;
+line-height: 1.6;
+font-size: 16px;
+margin-bottom: 3%;
+color:#CCC;
 }
 
 .individual-post .post-footer .addthis_toolbox {

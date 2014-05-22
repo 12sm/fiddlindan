@@ -716,7 +716,7 @@ font-size: 14px;
 
 .hentry footer { }
 .single-post {
-	background: url(../img/BG-Music.jpg) no-repeat;
+	background-color:rgba(0,0,0,1);
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}
@@ -835,13 +835,16 @@ text-align: left;
 background-color: #FFF;
 padding: 1%;
 }
+
 .excerpt a, .excerpt h3, h3{
   transition: color .5s ease;
   color: #fff;
 }
+
 .excerpt a:hover, .excerpt h3:hover, footer h3:hover{
   color: #ccc;
 }
+
 #respond {background-color:#FFF;}
 
 

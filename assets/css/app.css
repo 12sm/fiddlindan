@@ -931,6 +931,7 @@ footer{
   background: url(../img/Footer-Image.jpg) no-repeat;
   background-size: cover;
 }
+
 #social ul {margin:0px; padding:0px; list-style: none; margin-left: 40px;}
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
@@ -940,45 +941,59 @@ footer h4{
 margin-top: 0px;
 color: #313131;
 }
+
 footer a, footer h4, footer i{
   transition: color .5s ease;
 }
+
 footer a:hover, footer h4:hover, footer i:hover{
   color: #fff;
 }
+
 footer h3 {
 font-size: 65px;
 line-height: 55px;
 }
+
 #menu-footer-nav>li>a {
 font-family: "Liberator";
+color: #aaa;
+font-size: 16px;
 }
+
 #menu-footer-nav {
 list-style: none;
 float: left;
 display: inline-block;
 }
+
 #menu-footer-nav>li {
 display: inline-block;
 margin: 0 5px;
 }
+
 .photo-footer-list>li {
 display: inline-block;
 margin-right: 15px;
 margin-top: 10px;
 }
+
 ul.photo-footer-list {
 list-style: none;
 padding: 0px!important;
 float: left;
 }
+
 .big-icon {
 font-size: 150px;
 color: #313131;
 }
+
 ul.vfb-section.vfb-section-2 {
 padding-left: 0px;
 }
+
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes

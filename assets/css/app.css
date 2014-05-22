@@ -865,6 +865,13 @@ opacity: 1;
 pointer:default;
 }
 
+footer h4 {
+text-align: right;
+line-height: 1;
+font-size: 27px;
+padding-top: 1%;
+}
+
 
 /* ==========================================================================
    Colorbox

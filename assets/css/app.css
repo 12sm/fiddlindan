@@ -446,7 +446,7 @@ border-radius: 5px;
 border: 2px solid #414141;
 -webkit-box-shadow: 0 0 20px #818181;
 box-shadow: 0 0 20px #818181;
-margin: 2% 0px;
+margin: 3% 0px;
 }
 
 .slider-house {
@@ -593,6 +593,11 @@ padding-left: 0px;
 color: #fff;
 margin-top: 10px;
 font-size: 18px;
+}
+
+.track-description p {
+color: #777;
+font-size: 14px;
 }
 
 /* ==========================================================================

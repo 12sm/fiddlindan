@@ -237,7 +237,7 @@ background: url(../img/about-image.jpg) no-repeat;
 min-height: 650px;
 min-height: 500px;
 background-size: cover!important;
-background-position-x: -575px;
+background-position: center center!important;
 }
 
 #home-2-content {

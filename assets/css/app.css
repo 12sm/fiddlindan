@@ -996,10 +996,21 @@ padding-left: 0px;
 
 ul#menu-footer-nav {
 margin-bottom: 0;
+padding-left:1%;
 }
 
 footer div.col-sm-11.col-sm-offset-1 {
 padding: 1% 0;
+}
+
+ul#menu-social-navigation li a i {
+color: #949494;
+font-size:22px;
+transition:color .3s ease;
+}
+
+ul#menu-social-navigation li a i:hover {
+color: #FFF;
 }
 
 

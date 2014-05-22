@@ -26,7 +26,7 @@
   </div>
   </div>
   </div>
-  <div class="row">
+  <div class="row from-the-road">
     <div class="col-sm-3 col-sm-offset-1 col-xs-offset-2">
      <h3>From The Road</h3>
     </div>

@@ -847,13 +847,23 @@ height: auto;
 }
 
 .row.from-the-road {
-background-color: rgba(0,0,0,.3);
+background-color: rgba(0,0,0,.2);
 padding: 1% 0px;
 }
 
-h3.from-the {font-size:73px;line-height:1;}
-
+h3.from-the {font-size:73px;line-height:.7;}
 h3.road {font-size:98px;}
+
+ul.photo-footer-list img {
+border: 1px solid #242424;
+opacity: .7;
+transition: opacity ease .3s;
+}
+
+ul.photo-footer-list img:hover {
+opacity: 1;
+pointer:default;
+}
 
 
 /* ==========================================================================

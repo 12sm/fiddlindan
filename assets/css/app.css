@@ -714,12 +714,9 @@ font-size: 14px;
 	background-color: rgba(56, 56, 56, 1);
 }
 
-span.comment-count, {
-color: #fff;
-}
-
+span.comment-count,
 span.community-name {
-color: #FFF;
+color: #fff!important;
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}

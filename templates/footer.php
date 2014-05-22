@@ -37,7 +37,7 @@
         </ul>
         <a href="/road-photos/" class="footer-link">
           <h4>More Photos from the Road</h4>
-          <span class="glyphicon glyphicon-chevron-right big-icon"></span>
+          <i class="fa fa-chevron-right big-icon"></i>
         </a>
       </div>
     </div>

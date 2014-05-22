@@ -345,7 +345,7 @@ margin-left: 5.33%;
 
 #menu-primary-navigation>li, 
 #menu-primary-navigation>li.active {
-background-color: rgba(95,118,134,.7);
+background-color: rgba(12,93,143,.3);
 color: #fff;
 font-family: 'liberator';
 height: 30px;
@@ -353,11 +353,11 @@ margin-right: 3px;
 }
 
 #menu-primary-navigation>li.active {
-background-color: rgb(14, 145, 163);
+background-color: rgba(6, 114, 180, 1);
 }
 
 #menu-primary-navigation>li>a:hover {
-background-color: rgba(13,115,138, .6);
+background-color: rgba(6, 114, 180, 1);
 height: 30px;
 }
 

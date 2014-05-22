@@ -61,6 +61,8 @@ padding: 4px 6px!important;
 
 blockquote {
 border-left: 15px solid #3C3C3E;
+font-family: 'liberator';
+font-size: 24px!important;
 }
 
 textarea:focus, input:focus {

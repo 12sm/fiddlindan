@@ -711,7 +711,7 @@ font-size: 14px;
 
 .hentry .entry-content {
 	padding: 1%;
-	background-color: #000;
+	background-color: rgba(0,0,0,.4);
 }
 
 .hentry footer { }

@@ -232,6 +232,7 @@ background-color: rgba(203, 209, 48, 1);
 
 button.btn.btn-music:hover {
 color: #fff;
+background-color: rgba(203, 209, 48, 1);
 transition: color .5s ease;
 }
 

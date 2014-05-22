@@ -959,7 +959,13 @@ line-height: 55px;
 font-family: "Liberator";
 color: #949494;
 font-size: 16px;
+transition: color .3s ease;
 }
+
+#menu-footer-nav>li>a:hover {
+color: #FFF;
+}
+
 
 #menu-footer-nav {
 list-style: none;

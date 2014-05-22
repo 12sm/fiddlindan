@@ -711,25 +711,42 @@ font-size: 14px;
 .hentry .entry-content { }
 .hentry footer { }
 .single-post {
-	background-color: rgba(0,0,0,1);
+	background-color: rgba(56, 56, 56, 1);
 }
+
+span.comment-count, {
+color: #fff;
+}
+
+span.community-name {
+color: #FFF;
+}
+
 body.single-post .wrap {margin:0 auto;padding:0 10%;}
 .blog{
   background: url(../img/BG-Music.jpg) fixed;
   background-size: cover;
 }
+
+#no-posts {
+color: #FFF;
+}
+
 .single-post .entry-title{
   display: none;
 }
+
 body.single .hentry time {
 font-size: 16px;
 padding: 5px;
 }
+
 .hentry p{
    word-spacing: 4px;
    line-height: 20px;
    font-size: 16px;
 }
+
 .individual-post .post-footer .addthis_toolbox {
 float: right;
 width: 100%;

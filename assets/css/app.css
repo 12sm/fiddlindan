@@ -957,7 +957,7 @@ line-height: 55px;
 
 #menu-footer-nav>li>a {
 font-family: "Liberator";
-color: #aaa;
+color: #949494;
 font-size: 16px;
 }
 
@@ -970,6 +970,7 @@ display: inline-block;
 #menu-footer-nav>li {
 display: inline-block;
 margin: 0 5px;
+padding-right: 20px;
 }
 
 .photo-footer-list>li {
@@ -991,6 +992,14 @@ color: #313131;
 
 ul.vfb-section.vfb-section-2 {
 padding-left: 0px;
+}
+
+ul#menu-footer-nav {
+margin-bottom: 0;
+}
+
+footer div.col-sm-11.col-sm-offset-1 {
+padding: 1% 0;
 }
 
 

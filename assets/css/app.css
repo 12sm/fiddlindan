@@ -709,14 +709,14 @@ font-size: 14px;
 .hentry time {display: none; }
 .hentry .byline {display: none; }
 
-.hentry .hentry .entry-content {
+.hentry .entry-content {
 	padding: 1%;
 	background-color: #000;
 }
 
 .hentry footer { }
 .single-post {
-	background-color:rgba(0,0,0,1);
+	background: url(../img/BG-Music.jpg) no-repeat;
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}

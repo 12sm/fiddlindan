@@ -710,10 +710,10 @@ font-size: 14px;
 .hentry .byline {display: none; }
 .hentry .entry-content { }
 .hentry footer { }
-.single-post{
-    background: url(../img/BG-Music.jpg) fixed;
-    background-size: cover;
+.single-post {
+	background-color: rgba(0,0,0,1);
 }
+body.single-post .wrap {margin:0 auto;padding:0 10%;}
 .blog{
   background: url(../img/BG-Music.jpg) fixed;
   background-size: cover;

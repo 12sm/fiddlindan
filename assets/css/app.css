@@ -324,12 +324,26 @@ border-bottom: none!important;
 
 li#item-vfb-4 input {
 background-color: #10768c;
-color: #7D7D7D;
+color: #FFF;
 padding: 1% 2%!important;
 font-family: "liberator";
 font-size: 24px;
 height: 50px;
 border-radius: 0px;
+transition:background-color ease .3s;
+}
+
+li#item-vfb-4 input:hover {
+background-color: rgba(203, 209, 48, 1);
+}
+
+fieldset#item-vfb-2 .vfb-legend {
+display: none;
+}
+
+li#item-vfb-4.vfb-item-submit {
+text-align: center;
+border-bottom: 0!important;
 }
 
 .headline-box h3 {

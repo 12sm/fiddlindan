@@ -1098,6 +1098,9 @@ button.navbar-toggle {background-color: #444;}
 
 /* General */
 #bg-2, #bg-3, #bg-4 {padding: 50px 0px;}
+
+/* HOME - About */
+#home-2-content button.btn.btn-read {width: 100%;}
 #bg-2 {
 background: #111111; /* Old browsers */
 background: -webkit-linear-gradient(top,  #111111 0%,#313438 100%); /* Chrome10+,Safari5.1+ */
@@ -1113,6 +1116,10 @@ background: -o-linear-gradient(top,  #111111 0%,#313438 100%); /* Opera 11.10+ *
 .sesh-meta {color: #D5D5D5;font-size: 22px;text-align: center;}
 .btn.btn-music, .btn.btn-read {width: 49%;}
 .track-description {margin: 25px 0px;}
+
+/* HOME - Footer */
+div#social, .footer-nav {display: none;}
+h3.from-the, h3.road {display: none;}
 
 }
 

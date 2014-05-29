@@ -1124,6 +1124,9 @@ h3.from-the, h3.road {display: none;}
 .row.from-the-road {background-color: transparent;}
 .big-icon {display:none;}
 footer h4 {max-width: 100%;margin-top: 0px;color: #AFAFAF;}
+p.credits {text-align:center;}
+ul.photo-footer-list {float: none;text-align: center;}
+ul.photo-footer-list img {width: 100px;height: 100px;text-align: center;}
 
 }
 

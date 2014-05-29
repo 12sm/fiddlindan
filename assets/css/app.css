@@ -192,6 +192,7 @@ padding-bottom: 0px!important;
 padding: 0;
 width: 100%;
 margin-bottom: 0px;
+background-color: #000;
 }
 
 .home-slider-container {
@@ -607,7 +608,7 @@ width: 74%;
 }
 
 .dan-nodan {
-list-style: none;
+list-style-type: none;
 color: #525252;
 padding-right: 10px;
 padding-left: 10px;
@@ -622,6 +623,8 @@ font-family: 'liberator';
 font-size: 28px;
 margin-top: -15px;
 opacity:.8;
+list-style-type:none;
+display:inline;
 }
 
 .dan-nodan>li:nth-child(1) {

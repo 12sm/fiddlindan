@@ -655,8 +655,8 @@ font-size: 18px;
 }
 
 .sesh-meta p {
-color: #777;
-font-size: 14px;
+color: #777!important;
+font-size: 14px!important;
 }
 
 .track-description p {

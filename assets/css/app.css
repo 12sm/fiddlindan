@@ -1098,6 +1098,13 @@ button.navbar-toggle {background-color: #444;}
 
 /* General */
 #bg-2, #bg-3, #bg-4 {padding: 50px 0px;}
+#bg-2 {
+background-image:none!important;	
+background: #333333; /* Old browsers */
+background: -webkit-linear-gradient(top,  #333333 0%,#575d63 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #333333 0%,#575d63 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #333333 0%,#575d63 100%); /* IE10+ */
+}
 
 /* HOME - Slider Section */
 #home-3-content h2 {text-align: center;}

@@ -1096,6 +1096,9 @@ a.brand {margin-top:9px;}
 .navbar-default .navbar-toggle {border-color: #707070;}
 button.navbar-toggle {background-color: #444;}
 
+/* HOME - Top slider */
+.headline-box button.btn.btn-read {width: 100%;}
+
 /* General */
 #bg-2, #bg-3, #bg-4 {padding: 50px 0px;}
 

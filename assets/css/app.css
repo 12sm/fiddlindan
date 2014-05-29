@@ -1087,11 +1087,14 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* I know, I know, shame on me */
 @media (max-width: 768px) {
 
-.slider-house {
-height: 175px;
-margin-top: -39px;
-}
-	
+/* HOME - Slider */
+.slider-house {height: 175px;margin-top: -39px;}
+.dan-nodan>li {margin-top: -39px;}
+.slider-body {height: 173px!important;}
+.dan-nodan>li:nth-child(2) {margin-left: 15%;}
+.sesh-meta {color: #D5D5D5;font-size: 22px;text-align: center;}
+.btn.btn-music, .btn.btn-read {width: 49%;}
+
 }
 
 /* Small devices (tablets, 768px and up) */

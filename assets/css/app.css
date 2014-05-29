@@ -1120,6 +1120,9 @@ background: -o-linear-gradient(top,  #111111 0%,#313438 100%); /* Opera 11.10+ *
 /* HOME - Footer */
 div#social, .footer-nav {display: none;}
 h3.from-the, h3.road {display: none;}
+.row.from-the-road {background-color: transparent;}
+.big-icon {display:none;}
+footer h4 {max-width: 100%;margin-top: 0px;color: #AFAFAF;}
 
 }
 

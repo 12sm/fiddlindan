@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row col">
 	<div class="col-sm-12">
 	<?php while (have_posts()) : the_post(); ?>
 	  <?php the_content(); ?>

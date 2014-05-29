@@ -695,7 +695,8 @@ font-size: 14px;
 }
 
 body.about .main,
-body.songwriting .main {
+body.songwriting .main,
+body.road-photos .main {
 margin-top: 5%;
 }
 
@@ -719,6 +720,11 @@ margin-top: 5%;
    Posts
    ========================================================================== */
 
+.page-header {
+border-bottom: none;
+margin: 5% 10% 0 10%;
+}
+
 .hentry header { }
 .hentry time {display: none; }
 .hentry .byline {display: none; }
@@ -737,7 +743,7 @@ margin-top: 5%;
 body.single-post .wrap {margin:0 auto;padding:0 10%;}
 
 .blog {
-  background: url(../img/BG-Music.jpg) fixed;
+  background: url(../img/internal-bg.jpg) fixed;
   background-size: cover;
 }
 
@@ -823,6 +829,7 @@ padding: 2%;
 background: url(../img/player-bg-square.png) repeat;
 padding: 2%;
 margin-top: 15px;
+background-color: rgba(0,0,0,.2);
 }
 .individual-post{
   /*margin-top: 15px;*/

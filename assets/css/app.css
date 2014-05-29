@@ -1090,8 +1090,13 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* Navbar */
 .navbar-header {background-color: rgba(44, 44, 44, 1);}
 a.brand {margin-top:9px;}
+#menu-primary-navigation>li>a {font-size: 22px;}
+#menu-primary-navigation>li, #menu-primary-navigation>li.active {
+	height: auto;padding: 1%;background-color: rgba(12,93,143,.8);}
+.navbar-default .navbar-toggle {border-color: #707070;}
+button.navbar-toggle {background-color: #444;}
 
-
+/* General */
 #bg-2, #bg-3, #bg-4 {padding: 50px 0px;}
 
 /* HOME - Slider Section */

@@ -665,6 +665,8 @@ color: #777;
 font-size: 14px;
 }
 
+
+
 /* ==========================================================================
    Primary Content
    ========================================================================== */
@@ -1136,6 +1138,9 @@ p.credits {text-align:center;}
 ul.photo-footer-list {float: none;text-align: center;}
 ul.photo-footer-list img {width: 100px;height: 100px;text-align: center;}
 
+/* SESSIONS */
+.booking-form {padding:0%;}
+
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -1280,6 +1285,7 @@ background-position: bottom left;
 background-position-x: -240px;
 background-position-y: 300px;
 }
+.booking-form {padding: 0% 25%;}
 
 /* Sliders */
 .slider-body {width:100%}

@@ -11,7 +11,7 @@
 	</div>
 </div>
 <div class="row" id="bg-4"> 
-	<div class="col-sm-12">
+	<div class="col-sm-12 booking-form">
 		<?php echo do_shortcode('[vfb id=1]'); ?>
 	</div>
 </dvi>

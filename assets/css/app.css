@@ -708,13 +708,11 @@ margin-top: 5%;
     background-position-x: -125px;
 }
 
-.bandcamp-embed{
-width: 80%;
-}
+.bandcamp-embed{width: 80%;}
 
-.songwriting-body {
-text-align: right!important;
-}
+.songwriting-body {text-align: right!important;}
+
+.music-view {float: right;}
    
 /* ==========================================================================
    Posts

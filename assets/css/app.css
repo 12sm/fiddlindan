@@ -694,6 +694,10 @@ font-size: 14px;
   background-position-x: -350px;
 }
 
+body.about .main {
+margin-top: 5%;
+}
+
 /* ==========================================================================
    Songwriting
    ========================================================================== */
@@ -1139,7 +1143,7 @@ ul.photo-footer-list {float: none;text-align: center;}
 ul.photo-footer-list img {width: 100px;height: 100px;text-align: center;}
 
 /* SESSIONS */
-.booking-form {padding:0%;}
+.booking-form {padding:5%;}
 
 }
 

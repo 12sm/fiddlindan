@@ -702,17 +702,18 @@ margin-top: 5%;
 /* ==========================================================================
    Songwriting
    ========================================================================== */
-.page-id-33{
+.page-id-33 {
     background: url(../img/BG-Music.jpg) no-repeat;
     background-size: cover;
     background-position-x: -125px;
+	background-size: contain;
 }
 
-.bandcamp-embed{width: 80%;}
+.bandcamp-embed {width: 80%;}
 
 .songwriting-body {text-align: right!important;}
 
-.music-view {float: right;}
+.music-view {float: right;margin-top: 4%!important;}
    
 /* ==========================================================================
    Posts

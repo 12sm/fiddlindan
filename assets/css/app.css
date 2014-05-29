@@ -1267,7 +1267,7 @@ height: 65px;
 @media (min-width: 992px) { 
 
 /* SESSIONS PAGE */
-h1 {font-size: 108px;}
+body.sessionwork h1 {font-size: 108px;}
 
 
 

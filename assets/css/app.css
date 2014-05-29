@@ -1268,6 +1268,11 @@ height: 65px;
 
 /* SESSIONS PAGE */
 body.sessionwork h1 {font-size: 90px;line-height: .8;}
+.dan-bg {
+background: url(../img/BG-Image.jpg) no-repeat;
+background-size: contain;
+background-position: bottom left;
+}
 
 /* Sliders */
 .slider-body {width:100%}

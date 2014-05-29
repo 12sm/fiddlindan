@@ -97,6 +97,7 @@ var Roots = {
         link_type: 'img',
         success: function(){
           $('.photos-page a').colorbox({
+            rel: 'gal',
             maxWidth: '800px',
             maxHeight: '600px',
             });

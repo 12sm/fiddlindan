@@ -694,24 +694,27 @@ font-size: 14px;
   background-position-x: -350px;
 }
 
-body.about .main {
+body.about .main,
+body.songwriting .main {
 margin-top: 5%;
 }
 
 /* ==========================================================================
    Songwriting
    ========================================================================== */
-   .page-id-33{
+.page-id-33{
     background: url(../img/BG-Music.jpg) no-repeat;
     background-size: cover;
     background-position-x: -125px;
-   }
-   .songwriting-body>*{
-    text-align: center!important;
-   }
-   .bandcamp-embed{
-    width: 80%;
-   }
+}
+
+.bandcamp-embed{
+width: 80%;
+}
+
+.songwriting-body {
+text-align: right!important;
+}
    
 /* ==========================================================================
    Posts

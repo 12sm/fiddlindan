@@ -450,11 +450,6 @@ background-color: #fff;
 /* ==========================================================================
    Audio Slider/Mixer - Sessions
    ========================================================================== */
-.page-id-4{
-  background: url(../img/BG-Image.jpg) no-repeat;
-  background-size: cover!important;
-  background-position-x: -1000px;
-}
 .page-id-4 .main{
 padding-bottom: 0%;
 }
@@ -1293,10 +1288,6 @@ margin: 30px!important;
  
  .page-id-33 {
   background-position-x: 0px;
-}
-  
-.page-id-4 {
-background-position-x: 54%;
 }
 
 .photos-page>li {

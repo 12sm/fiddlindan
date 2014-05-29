@@ -627,8 +627,6 @@ list-style-type:none;
 display:inline;
 }
 
-/* 
-
 .dan-nodan>li:nth-child(1) {
 float: left;
 padding-left:2%
@@ -645,8 +643,6 @@ text-align: center;
 float: right;
 padding-right:2% 
 }
-
-*/
 
 .session-meta {
 clear: both;
@@ -1113,12 +1109,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* I know, I know, shame on me */
 @media (max-width: 768px) {
 
-/* EXPERIMENTING */
-.float-right {float:right;}
-.float-left {float:left;}
-.float-none {float:none;}
-
-
 /* Navbar */
 .navbar-header {background-color: rgba(44, 44, 44, 1);}
 a.brand {margin-top:9px;}
@@ -1146,9 +1136,9 @@ background: -o-linear-gradient(top,  #111111 0%,#363138 100%); /* Opera 11.10+ *
 /* HOME - Slider Section */
 #home-3-content h2 {text-align: center;font-size: 70px;line-height: 41px;}
 .slider-house {height: 175px;margin-top: -39px;}
-/* .dan-nodan>li {margin-top: -39px;} */
+.dan-nodan>li {margin-top: -39px;}
 .slider-body {height: 173px!important;}
-/* .dan-nodan>li:nth-child(2) {margin-left: 15%;} */
+.dan-nodan>li:nth-child(2) {margin-left: 15%;}
 .sesh-meta {color: #D5D5D5;font-size: 22px;text-align: center;}
 .btn.btn-music, .btn.btn-read {width: 49%;}
 .track-description {margin: 25px 0px;}

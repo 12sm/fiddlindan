@@ -1266,6 +1266,11 @@ height: 65px;
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) { 
 
+/* SESSIONS PAGE */
+h1 {font-size: 108px;}
+
+
+
 .page-id-44 {
   background-position-x:0px; 
 }

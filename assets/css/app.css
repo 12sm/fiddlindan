@@ -450,12 +450,16 @@ background-color: #fff;
 /* ==========================================================================
    Audio Slider/Mixer - Sessions
    ========================================================================== */
+.page-id-4 {background-color: #000;}
+
 .page-id-4 .main{
 padding-bottom: 0%;
 }
+
 .page-id-4 .content {
 margin-top: 6%;
 }
+
 .slider{  
     border-width: 1px;  
     border-style: solid;  

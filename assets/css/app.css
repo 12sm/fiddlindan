@@ -916,7 +916,9 @@ line-height: 1;
 font-size: 27px;
 padding-top: 1%;
 }
-
+.photos-page a {
+pointer-events: none;
+}
 
 /* ==========================================================================
    Colorbox
@@ -1163,7 +1165,9 @@ position: absolute;
 width: 33%;
 margin: 10px!important;
 }
-
+.photos-page a {
+pointer-events: auto;
+}
 div.navbar-header {
 background-color: rgba(95,118,134,0);
 }

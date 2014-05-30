@@ -1360,7 +1360,7 @@ line-height: .8;
 }
 
 ul.photo-footer-list li:nth-child(4) {
-display:block;
+display:inline;
 }
 
 

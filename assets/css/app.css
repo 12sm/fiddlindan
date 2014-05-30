@@ -619,8 +619,8 @@ list-style-type:none;
 display:inline;
 }
 
-.dan-nodan>li:nth-child(1) {float: left;}
-.dan-nodan>li:nth-child(2) {float: right;}
+.dan-nodan>li:nth-child(1) {float: left;padding-left:2%;}
+.dan-nodan>li:nth-child(2) {float: right;padding-right:2%;}
 
 .session-meta {
 clear: both;

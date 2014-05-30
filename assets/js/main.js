@@ -107,7 +107,7 @@ var Roots = {
             maxWidth: '800px',
             maxHeight: '600px',
             });
-        },
+        }
        });
 
       

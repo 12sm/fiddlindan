@@ -1134,6 +1134,11 @@ ul.photo-footer-list img {width: 100px;height: 100px;text-align: center;}
 /* SESSIONS */
 .booking-form {padding:5%;}
 
+/* ABOUT */
+.page-id-44 {background: url(../img/internal-bg.jpg) fixed;background-size: cover;}
+body.page-id-44 h1 {font-size: 65px;line-height: .6;text-align: center;}
+body.page-id-44 h1:nth-child(2) {margin-bottom:30px;}
+
 }
 
 /* Small devices (tablets, 768px and up) */

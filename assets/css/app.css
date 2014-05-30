@@ -1308,15 +1308,16 @@ background-color: #000;
 @media (min-width: 992px) { 
 
 /* SESSIONS PAGE */
-body.sessionwork h1 {font-size: 90px;line-height: .8;}
 .dan-bg {
-background: url(../img/BG-Image.jpg) no-repeat;
-background-size: contain;
-background-position: bottom left;
-background-position-x: -240px;
-background-position-y: 300px;
+	background: url(../img/BG-Image.jpg) no-repeat;
+	background-size: contain;
+	background-position: bottom left;
+	background-position-x: -240px;
+	background-position-y: 300px;
 }
 .booking-form {padding: 0% 25%;}
+.sesh-meta {font-size: 14px;}
+body.sessionwork h1 {font-size: 61px;line-height: .8;}
 
 /* Sliders */
 .slider-body {width:100%}
@@ -1369,6 +1370,10 @@ text-align: right!important;
 font-size: 76px;
 line-height: .8;
 }
+
+
+
+
 
 }
 

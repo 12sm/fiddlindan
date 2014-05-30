@@ -1359,4 +1359,9 @@ font-size: 48px;
 line-height: .8;
 }
 
+ul.photo-footer-list li:nth-child(4) {
+display:block;
+}
+
+
  }

@@ -15,16 +15,17 @@
       </div>
   <ul class="dan-nodan">
     <li>No Dan</li>
+    <li><img src="../assets/img/sweet-spot.png" /></li>
     <li>Just Dan</li>
   </ul>
   </div>
 <div class="row session-meta">
         <div class="col-sm-4">
           <ul class="sesh-meta">
-            <li><b>Title</b>:[wpv-post-title]</li>
-            <li><b>BY</b>: Dan Hochlater</li>
-            <li><b>Instruments</b>:[wpv-post-taxonomy type="instruments" separator=", " format="text" show="name" order="asc"]</li>
-            <li><b>Genre</b>:[wpv-post-taxonomy type="genres" separator=", " format="text" show="name" order="asc"]</li>
+            <li><b>Title</b>: [wpv-post-title]</li>
+            <li><b>BY</b>: [types field="writers" separator=", "][/types]</li>
+            <li><b>Instruments</b>: [wpv-post-taxonomy type="instruments" separator=", " format="text" show="name" order="asc"]</li>
+            <li><b>Genre</b>: [wpv-post-taxonomy type="genres" separator=", " format="text" show="name" order="asc"]</li>
           </ul>
         </div>
         <div class="col-sm-8">
@@ -35,6 +36,9 @@
         </div>
         </div>
           <script>
+          var startOffset[wpv-post-id] = 0;
+          var startTime[wpv-post-id] = 0;
+
             var CrossfadeSample = function() {
   loadSounds(this, {
     alpha: '[types field="no-dan-mp3" output="raw"][/types]',
@@ -44,7 +48,7 @@
 }
 
 CrossfadeSample.prototype.play = function() {
-
+  startTime[wpv-post-id] = context.currentTime;
   // Create two sources.
   this.ctl[wpv-post-id]1 = createSource(this.alpha);
   this.ctl[wpv-post-id]2 = createSource(this.dan);
@@ -52,9 +56,9 @@ CrossfadeSample.prototype.play = function() {
   this.ctl[wpv-post-id]1.gainNode.gain.value = 0.5;
   // Start playback in a loop
   var onName = this.ctl[wpv-post-id]1.source.start ? 'start' : 'noteOn';
-  this.ctl[wpv-post-id]1.source[onName](0);
-  this.ctl[wpv-post-id]2.source[onName](0);
-  // Set the initial crossfade to be just source 1.
+  this.ctl[wpv-post-id]1.source[onName](0, startOffset[wpv-post-id]);
+  this.ctl[wpv-post-id]2.source[onName](0, startOffset[wpv-post-id]);
+  // Set the initial crossfade to be 50/50.
   this.crossfade(0.5);
 
   function createSource(buffer) {
@@ -79,7 +83,9 @@ CrossfadeSample.prototype.play = function() {
 };
 
 CrossfadeSample.prototype.stop = function() {
-  
+
+  // Measure how much time passed since the last pause.
+  startOffset[wpv-post-id] += context.currentTime - startTime[wpv-post-id];
   var offName = this.ctl[wpv-post-id]1.source.stop ? 'stop' : 'noteOff';
   this.ctl[wpv-post-id]1.source[offName](0);
   this.ctl[wpv-post-id]2.source[offName](0);

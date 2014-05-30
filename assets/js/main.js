@@ -96,6 +96,12 @@ var Roots = {
         limit: 20,
         link_type: 'img',
         success: function(){
+          //check to make sure not mobile
+           if ( $(window).width() <= 767 ) {
+            //remove colorbox on this
+            $('.photos-page a').colorbox.remove();
+        } else {
+          //fire colorbox on tablet and up+
           $('.photos-page a').colorbox({
             rel: 'gal',
             maxWidth: '800px',

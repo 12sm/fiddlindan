@@ -1309,7 +1309,8 @@ background-size: contain;
 background-color: #000;
 }
 
-#bg-4 {padding:5% 15%;}
+#bg-4 {padding: 5% 0%!important;}
+.big-icon {display: none;}
 
 ul.photos-page {
 width: 100%;

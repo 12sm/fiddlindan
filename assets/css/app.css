@@ -1309,6 +1309,16 @@ ul.photo-footer-list li:nth-child(4) {
 display: none;
 }
 
+h3.from-the {
+font-size: 43px;
+line-height: .8;
+}
+
+h3.road {
+font-size: 44px;
+line-height:.001;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */

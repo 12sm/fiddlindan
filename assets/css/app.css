@@ -599,8 +599,6 @@ left: 15px;
 width: 74%;
 }
 
-/* 
-
 .dan-nodan {
 list-style-type: none;
 color: #525252;
@@ -621,24 +619,8 @@ list-style-type:none;
 display:inline;
 }
 
-.dan-nodan>li:nth-child(1) {
-float: left;
-padding-left:2%
-}
-
-.dan-nodan>li:nth-child(2) {
-float: left;
-margin-left: 22%;
-font-size: 12px;
-text-align: center;
-}
-
-.dan-nodan>li:nth-child(3) {
-float: right;
-padding-right:2% 
-}
-
-*/
+.dan-nodan>li:nth-child(1) {float: left;}
+.dan-nodan>li:nth-child(2) {float: right;}
 
 .session-meta {
 clear: both;

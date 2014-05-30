@@ -1290,6 +1290,12 @@ ul.photo-footer-list li:nth-child(4) {
 display: none;
 }
 
+.page-id-33 {
+background: url(../img/BG-Music.jpg) no-repeat;
+background-size: contain;
+background-color: #000;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */

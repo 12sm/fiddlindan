@@ -1277,9 +1277,9 @@ height: 65px;
 }
 
 
-ul.photo-footer-list li:nth-child(4) {
+/* ul.photo-footer-list li:nth-child(4) {
 display: none;
-}
+} */
 
 h3.from-the {
 font-size: 48px;

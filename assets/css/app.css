@@ -235,6 +235,7 @@ min-height: 650px;
 min-height: 500px;
 background-size: cover!important;
 background-position: center center!important;
+background-color:#000;
 }
 
 #home-2-content {

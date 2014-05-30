@@ -1345,6 +1345,19 @@ ul.photo-footer-list li:nth-child(4) {
 display: none;
 }
 
+.page-id-33 {
+background: url(../img/BG-Music.jpg) no-repeat;
+background-position: top center;
+background-size: contain;
+background-color: #000;
+}
+
+.songwriting-body h1 {
+text-align: right!important;
+font-size: 76px;
+line-height: .8;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */

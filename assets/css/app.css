@@ -1276,11 +1276,6 @@ input[type='range']::-webkit-slider-thumb {
 height: 65px;
 }
 
-
-/* ul.photo-footer-list li:nth-child(4) {
-display: none;
-} */
-
 h3.from-the {
 font-size: 48px;
 line-height: .8;
@@ -1342,6 +1337,10 @@ font-size: 44px;
 line-height:.001;
 }
 
+ul.photo-footer-list li:nth-child(4) {
+display: none;
+}
+
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -1350,7 +1349,14 @@ line-height:.001;
 min-height: 845px!important;
 }
 
-h3.from-the {font-size:73px;line-height:.8;}
-h3.road {font-size:98px;}
+h3.road {
+font-size: 91px;
+line-height: .5;
+}
+
+h3.from-the {
+font-size: 48px;
+line-height: .8;
+}
 
  }

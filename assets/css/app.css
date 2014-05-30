@@ -1229,7 +1229,7 @@ background-size: cover;
 background-position:top center!important;
 }
 
-body#page-id-44 h1 {
+body.page-id-44 h1 {
 font-size: 75px;
 line-height: .6;
 margin-bottom: 30px;

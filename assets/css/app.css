@@ -1304,6 +1304,17 @@ background-color: #000;
 
 #bg-4 {padding:5% 15%;}
 
+ul.photos-page {
+width: 100%;
+text-align: center;
+}
+
+body.page-id-72 h1 {
+font-size: 55px;
+line-height: .8;
+text-align: center;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */

@@ -6,7 +6,7 @@
 	</div>
 </div>
 <div class="row">
-	<div class="col-sm-11 col-lg-10 col-sm-offset-1">
+	<div class="col-sm-12 col-lg-10">
 			<ul class="photos-page">
 			</ul>
 	</div>

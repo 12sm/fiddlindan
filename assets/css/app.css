@@ -1364,7 +1364,13 @@ line-height: .8;
 }
 
 ul.photo-footer-list li:nth-child(4) {
-display:inline;
+display:inline!important;
+}
+
+.page-id-33 {
+background: url(../img/BG-Music.jpg) no-repeat;
+background-position-x: -126px!important;
+background-size: cover;
 }
 
 

@@ -1126,7 +1126,7 @@ div#social, .footer-nav {display: none;}
 h3.from-the, h3.road {display: none;}
 .row.from-the-road {background-color: transparent;}
 .big-icon {display:none;}
-footer h4 {max-width: 100%;margin-top: 0px;color: #AFAFAF;}
+footer h4 {max-width: 100%;margin-top: 0px;color: #AFAFAF;float:none;text-align:center;}
 p.credits {text-align:center;}
 ul.photo-footer-list {float: none;text-align: center;}
 ul.photo-footer-list img {width: 100px;height: 100px;text-align: center;}
@@ -1330,10 +1330,6 @@ margin: 30px!important;
 
 .photos-page>li {
 margin: 10px!important;
-}
-
-ul.photo-footer-list li:nth-child(4) {
-display: none;
 }
 
 h3.from-the {

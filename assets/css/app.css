@@ -1139,6 +1139,12 @@ ul.photo-footer-list img {width: 100px;height: 100px;text-align: center;}
 body.page-id-44 h1 {font-size: 65px;line-height: .6;text-align: center;}
 body.page-id-44 h1:nth-child(2) {margin-bottom:30px;}
 
+/* SONGWRITER */
+.page-id-33 {
+background: url(../img/internal-bg.jpg) no-repeat;background-size: cover;}
+.page-id-33 h1 {font-size: 65px;line-height: 35px;text-align: center!important;margin-bottom:30px;}
+.page-id-33 p {text-align: left!important;padding: 0 3%;}
+
 }
 
 /* Small devices (tablets, 768px and up) */

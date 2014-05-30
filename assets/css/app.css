@@ -1112,7 +1112,7 @@ background: -o-linear-gradient(top,  #111111 0%,#363138 100%); /* Opera 11.10+ *
 }
 
 /* HOME - Slider Section */
-#home-3-content h2 {text-align: center;font-size: 70px;line-height: 41px;}
+#home-3-content h2 {text-align: center;font-size: 70px;line-height:.7;}
 .slider-house {height: 175px;margin-top: -39px;}
 .slider-body {height: 173px!important;}
 .sesh-meta {color: #D5D5D5;font-size: 22px;text-align: center;}

@@ -1286,6 +1286,10 @@ font-size: 91px;
 line-height: .8;
 }
 
+ul.photo-footer-list li:nth-child(4) {
+display: none;
+}
+
 }
 
 /* Medium devices (desktops, 992px and up) */

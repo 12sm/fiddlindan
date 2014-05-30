@@ -23,8 +23,8 @@
 <div class="row home-content" id="bg-3">
 	<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8 col-sm-offset-1">
 		<div id="home-3-content">
-					<h2>Dan Can</h2>
-					<h2>Rock Your Track</h2>
+					<h2>Dan Can<br />
+					Rock Your Track</h2>
 	<?php echo do_shortcode('[wpv-view name="home-audio-slider"]'); ?>
 	<a href="#bg-4"><button class="btn btn-read">Book Dan</button></a> <a href="/sessions/"><button class="btn btn-music">More Music</button></a>
 		</div>

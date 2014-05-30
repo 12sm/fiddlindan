@@ -1088,7 +1088,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* I know, I know, shame on me */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
 
 /* Navbar */
 .navbar-header {background-color: rgba(44, 44, 44, 1);}

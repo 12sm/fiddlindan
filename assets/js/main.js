@@ -89,18 +89,21 @@ var Roots = {
   //On The Road
   page_id_72:{
     init: function(){
-
+        //no colorbox and link to insta on mobile
+      if ( $(window).width() <= 767 ) {
+        $('.photos-page').embedagram({
+        instagram_id: 16943201,
+       thumb_width: 300,
+        limit: 20,
+        link_type: 'web'
+      });
+        } else {
       $('.photos-page').embedagram({
         instagram_id: 16943201,
        thumb_width: 300,
         limit: 20,
         link_type: 'img',
         success: function(){
-          //check to make sure not mobile
-           if ( $(window).width() <= 767 ) {
-            //remove colorbox on this
-            $('.photos-page a').colorbox.remove();
-        } else {
           //fire colorbox on tablet and up+
           $('.photos-page a').colorbox({
             rel: 'gal',

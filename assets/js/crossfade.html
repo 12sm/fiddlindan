@@ -10,12 +10,12 @@
             <div class="slider-house">
           <div class="slider-section">
 <input type="range" min="0" max="100" value="50" ontouchmove="sample[wpv-post-id].crossfade(this);" onmousemove="sample[wpv-post-id].crossfade(this);">
-<img src="../assets/img/Player-Marks.png">
+<img src="../assets/img/Player-Marks-2.png" class="hidden-xs">
+<img src="../assets/img/Player-Marks-mobile.png" class="hidden-sm hidden-md hidden-lg">
       </div>
       </div>
   <ul class="dan-nodan">
     <li>No Dan</li>
-    <li><img src="../assets/img/sweet-spot.png" /></li>
     <li>Just Dan</li>
   </ul>
   </div>
@@ -58,7 +58,7 @@ CrossfadeSample.prototype.play = function() {
   var onName = this.ctl[wpv-post-id]1.source.start ? 'start' : 'noteOn';
   this.ctl[wpv-post-id]1.source[onName](0, startOffset[wpv-post-id]);
   this.ctl[wpv-post-id]2.source[onName](0, startOffset[wpv-post-id]);
-  // Set the initial crossfade to be 50/50.
+  // Set the initial crossfade to be just source 1.
   this.crossfade(0.5);
 
   function createSource(buffer) {
@@ -66,7 +66,7 @@ CrossfadeSample.prototype.play = function() {
     var gainNode = context.createGain();
     source.buffer = buffer;
     // Turn on looping
-    source.loop = true;
+    source.loop = false;
     //source dependent toggle
 
       

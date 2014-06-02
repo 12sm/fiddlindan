@@ -724,7 +724,7 @@ margin: 5% 10% 0 10%;
 .hentry footer { }
 
 .single-post {
-	background: url(../img/internal-bg.jpg) no-repeat;
+	background: url(../img/internal-bg.jpg) repeat-y;
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}
@@ -1155,7 +1155,7 @@ body.page-id-4 h1 {font-size: 45px;line-height: .8;text-align: center!important;
 
 /* ABOUT */
 .page-id-44 {background: url(../img/internal-bg.jpg) fixed;background-size: cover;}
-body.page-id-44 h1 {font-size: 65px;line-height: .6;text-align: center;}
+body.page-id-44 h1 {font-size: 50px;line-height: .4;text-align: center;}
 body.page-id-44 h1:nth-child(2) {margin-bottom:30px;}
 
 /* SONGWRITER */
@@ -1163,6 +1163,7 @@ body.page-id-44 h1:nth-child(2) {margin-bottom:30px;}
 background: url(../img/internal-bg.jpg) no-repeat;background-size: cover;}
 .page-id-33 h1 {font-size: 65px;line-height: .8;text-align: center!important;margin-bottom:30px;}
 .page-id-33 p {text-align: left!important;padding: 0 3%;}
+.bandcamp-embed {width: 80%;margin: 0 auto;}
 
 }
 

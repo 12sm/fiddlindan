@@ -681,10 +681,10 @@ body.road-photos .main {
 margin-top: 5%;
 }
 
-.bio-imgs {
-float: right;
-margin: 2%;
-border: 1px solid #585858;
+.performance-credits ul li {
+color: #B3B3B3;
+font-size: 20px;
+list-style: none;
 }
 
 /* ==========================================================================
@@ -1264,7 +1264,7 @@ background-position:top center!important;
 
 body.page-id-44 h1 {
 font-size: 75px;
-line-height: .6;
+line-height: .8;
 margin-bottom: 30px;
 }
 
@@ -1409,14 +1409,12 @@ line-height: .8;
 
 .individual-players {float:right;}
 
-
-
-
 }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-  .slide-background{
+
+.slide-background{
 min-height: 845px!important;
 }
 

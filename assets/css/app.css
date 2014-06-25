@@ -718,7 +718,7 @@ font-size: 32px;
 opacity: .6;
 }
 
-.album-credits img:hover {
+.album-credits img {
 transition: -webkit-filter .3s ease, -moz-filter .3s ease, filter .3s ease;
 }
 

@@ -21,7 +21,7 @@
 	</div>
 </div> -->
 <div class="row home-content" id="bg-3">
-	<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+	<div class="col-xs-12 col-sm-11 col-sm-offset-1 col-md-8 col-lg-8">
 		<div id="home-3-content">
 					<h2>Dan Can<br />
 					Rock Your Track</h2>

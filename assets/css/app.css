@@ -730,7 +730,6 @@ filter:brightness(120%);
 
 .tv-logos img {
 opacity: .7;
-transition: opacity .3s ease;
 }
 
 .tv-logos img:hover {

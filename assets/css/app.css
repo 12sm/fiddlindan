@@ -719,7 +719,7 @@ opacity: .6;
 }
 
 .album-credits img {
-transition: -webkit-filter .3s ease, -moz-filter .3s ease, filter .3s ease;
+transition: brightness .3s ease, filter .3s ease;
 }
 
 .album-credits img:hover {

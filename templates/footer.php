@@ -29,7 +29,7 @@
   </div>
   </div>
   </div>
-  <div class="row from-the-road">
+  <!-- <div class="row from-the-road">
     <div class="col-md-2 col-sm-3 col-sm-offset-1 col-xs-offset-2">
      <h3 class="from-the">From The</h3> 
 	 <h3 class="road">Road</h3>
@@ -44,7 +44,7 @@
         </a>
       </div>
     </div>
-  </div>
+  </div> -->
 </footer>
 
 <?php wp_footer(); ?>

@@ -704,6 +704,18 @@ list-style: none;
 text-align: center;
 }
 
+.video-listed-items a em,  .video-listed-items em a {
+font-size: 30px;
+color: #FFF;
+font-style: normal;
+margin-left: .5%;
+}
+
+.video-listed-items i.fa.fa-youtube-play {
+font-size: 32px;
+opacity: .6;
+}
+
 /* ==========================================================================
    Songwriting
    ========================================================================== */

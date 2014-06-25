@@ -718,6 +718,14 @@ font-size: 32px;
 opacity: .6;
 }
 
+.album-credits img:hover {
+transition: -webkit-filter .3s ease;
+}
+
+.album-credits img:hover {
+-webkit-filter: brightness(120%);
+}
+
 /* ==========================================================================
    Songwriting
    ========================================================================== */

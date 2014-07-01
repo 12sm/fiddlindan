@@ -22,9 +22,11 @@ http://12southmusic.com/
   <title><?php wp_title('|', true, 'right'); ?></title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <?php wp_head(); ?>
-   <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/themes/smoothness/jquery-ui.css" />
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 <script src="http://code.createjs.com/soundjs-0.5.2.min.js"></script>
+<script type="text/javascript" src="//use.typekit.net/uhf4zhn.js"></script>
+<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   <link rel="alternate" type="application/rss+xml" title="<?php echo get_bloginfo('name'); ?> Feed" href="<?php echo home_url(); ?>/feed/">
   <link rel="shortcut icon" href="<?php echo of_get_option('favicon_upload'); ?>" />
 </head>

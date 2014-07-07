@@ -1227,6 +1227,13 @@ background: url(../img/internal-bg.jpg) no-repeat;background-size: cover;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) { 
+
+h1{font-size: 75px; line-height:65px;}
+h2{font-size: 65px; line-height:55px;}
+h3{font-size: 55px; line-height:45px;}
+h4{font-size: 45px; line-height:45px;}
+
+
 .home-content {
   padding-top: 50px;
   padding-bottom: 25px;
@@ -1289,8 +1296,6 @@ max-width: 525px;
 }
 
 body.page-id-4 h1 {
-font-size: 85px;
-line-height: 90px;
 text-align: center;
 }
 
@@ -1320,8 +1325,6 @@ background-position:top center!important;
 }
 
 body.page-id-44 h1 {
-font-size: 75px;
-line-height: .8;
 margin-bottom: 30px;
 }
 
@@ -1392,8 +1395,6 @@ text-align: center;
 }
 
 body.page-id-72 h1 {
-font-size: 55px;
-line-height: .8;
 text-align: center;
 }
 
@@ -1412,7 +1413,6 @@ text-align: center;
 }
 .booking-form {padding: 0% 25%;}
 .sesh-meta {font-size: 14px;}
-body.sessionwork h1 {font-size: 61px;line-height: .8;}
 
 /* Sliders */
 .slider-body {width:100%}

@@ -1350,7 +1350,9 @@ padding-left: 40px;
 } */
 
 #menu-primary-navigation {
-margin-left: 9.3%;
+margin: 0px auto;
+width: 825px;
+float: none;
 }
 
 input[type='range']::-moz-range-thumb{

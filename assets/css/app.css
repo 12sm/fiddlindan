@@ -699,13 +699,13 @@ color: #777;
 }
 
 .about-row {
-background: url(assets/2014/05/Fiddle-BW-907x1024.jpg) fixed;
+background: url(../2014/05/Fiddle-BW-907x1024.jpg) fixed;
 }
 
 .performance-credits li {
 color: #B3B3B3;
 font-size: 20px;
-list-style: none;
+list-style:none;
 }
 
 .performance-credits ul {padding-left:0px!important;}

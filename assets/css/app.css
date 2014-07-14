@@ -13,6 +13,7 @@
 
 body {
 font-family: "brandon-grotesque",sans-serif;
+background:#000 url(../img/Footer-Image.jpg);
 }
 
 a:hover{
@@ -189,6 +190,8 @@ html[xmlns] .slides {display: block;}
 /* ==========================================================================
    Home
    ========================================================================== */
+
+body.home .footer-nav {display:none;}
 
 .home .main {
 padding-top: 0px!important;
@@ -378,7 +381,7 @@ padding-right: 11%;
 
 p.credits {
 margin-bottom: 0;
-color: #313131;
+color: #fff;
 font-size: 11px;
 }
 

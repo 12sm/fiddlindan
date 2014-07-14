@@ -698,6 +698,10 @@ color: #777;
   background-position-x: -350px;
 }
 
+.about-row {
+background: url(assets/2014/05/Fiddle-BW-907x1024.jpg) fixed;
+}
+
 .performance-credits li {
 color: #B3B3B3;
 font-size: 20px;

@@ -1448,12 +1448,13 @@ text-align: center;
 .custom-col {width: 66.66666666666666%!important;}
 
 /* SESSIONS PAGE */
-.dan-bg {
+body.page-id-4 {
 	background: url(../img/BG-Image.jpg) no-repeat;
 	background-size: contain;
 	background-position: bottom left;
 	background-position-x: -240px;
 	background-position-y: 300px;
+	background-attachment: fixed;
 }
 .booking-form {padding: 0% 25%;}
 .sesh-meta {font-size: 14px;}

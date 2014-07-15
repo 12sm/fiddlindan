@@ -40,6 +40,7 @@ line-height: 35px;
 h2 {
 font-size: 40px;
 line-height: 31px;
+color:#999;
 }
 
 b {
@@ -1270,9 +1271,9 @@ background: url(../img/internal-bg.jpg) no-repeat;background-size: cover;}
 @media (min-width: 768px) { 
 
 h1{font-size: 75px; line-height:65px;}
-h2{font-size: 65px; line-height:55px;}
-h3{font-size: 55px; line-height:45px;}
-h4{font-size: 45px; line-height:45px;}
+h2{font-size: 40px; line-height:31px;}
+h3{font-size: 32px; line-height:32px;}
+h4{font-size: 28px; line-height:28px;}
 
 .page-id-44{
   background: url(../img/about-image.jpg) fixed;
@@ -1325,11 +1326,6 @@ margin: 0 10%;
 
 .page-id-44 .main {
 padding-left: 50px;
-}
-
-h2{
-font-size: 75px;
-line-height: .8;
 }
 
 .slider-house {
@@ -1538,7 +1534,7 @@ display:inline!important;
 background: #000 url(../img/BG-Music.jpg) no-repeat;
 background-position-x: -126px!important;
 background-size: cover;
-}
+}	
 
 
  }

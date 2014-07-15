@@ -707,7 +707,8 @@ background-position:top center!important;
 .about-row {background:transparent;}
 
 .performance-credits li,
-.television-items ul li {
+.television-items ul li,
+.page-id-4 li {
 color: #ffffff;
 font-size: 16px;
 list-style: square;

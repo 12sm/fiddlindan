@@ -709,7 +709,9 @@ background-position:top center!important;
 .television-items ul li {
 color: #ffffff;
 font-size: 16px;
-list-style: none;
+list-style: square;
+list-style-type: square;
+list-style-position: inside;
 }
 
 .performance-credits ul,

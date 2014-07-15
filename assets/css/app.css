@@ -698,10 +698,14 @@ background-size: cover;
 background-position:top center!important;
 }
 
+.wpb_row {background: rgba(0,0,0,0.3);}
+
+.about-row {background:transparent;}
+
 .performance-credits li {
-color: #B3B3B3;
-font-size: 20px;
-list-style:none;
+color: #ffffff;
+font-size: 16px;
+list-style: none;
 }
 
 .performance-credits ul {padding-left:0px!important;}
@@ -746,6 +750,10 @@ ul li{
 -o-column-break-inside:avoid;
 -ms-column-break-inside:avoid;
 column-break-inside:avoid;
+}
+
+.wpb_content_element .wpb_gallery_slides ul li {
+max-width: 100%!important;
 }
 
 /* ==========================================================================
@@ -1240,9 +1248,11 @@ h4{font-size: 45px; line-height:45px;}
 .page-id-44{
   background: url(../img/about-image.jpg) fixed;
   background-size: cover;
-  background-position-x: -350px!important;
 }
 
+.wpb_content_element .wpb_gallery_slides ul li {
+max-width: 19%!important;
+}
 
 .home-content {
   padding-top: 50px;

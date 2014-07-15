@@ -698,7 +698,10 @@ background-size: cover;
 background-position:top center!important;
 }
 
-.wpb_row {background: rgba(0,0,0,0.3);}
+.performance-credits,
+.discog,
+.videog,
+.television {background: rgba(0,0,0,0.3);}
 
 .about-row {background:transparent;}
 
@@ -727,13 +730,20 @@ opacity: .6;
 }
 
 .album-credits img {
+-o-transition: brightness .3s ease, filter .3s ease;
+-moz-transition:brightness .3s ease, filter .3s ease;
+-webkit-transition: brightness .3s ease, filter .3s ease;
 transition: brightness .3s ease, filter .3s ease;
+-webkit-filter: brightness(80%);
+-moz-filter:brightness(80%);
+-o-filter:brightness(80%);
+filter:brightness(80%);
 }
 
 .album-credits img:hover {
--webkit-filter: brightness(120%);
-filter:brightness(120%);
--moz-filter:brightness(120%);
+-webkit-filter: brightness(100%);
+filter:brightness(100%);
+-moz-filter:brightness(100%);
 }
 
 .tv-logos img {

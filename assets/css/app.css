@@ -1177,6 +1177,21 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* I know, I know, shame on me */
 @media (max-width: 767px) {
 
+.three-col {
+-moz-column-count: 1;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 1;
+       -webkit-column-gap : 20px;
+}
+
+.two-col {
+-moz-column-count: 1;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 1;
+       -webkit-column-gap : 20px;
+}
+
+
 /* Navbar */
 .navbar-header {background-color: rgba(44, 44, 44, 1);}
 a.brand {margin-top:9px;}

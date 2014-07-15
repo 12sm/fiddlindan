@@ -705,13 +705,15 @@ background-position:top center!important;
 
 .about-row {background:transparent;}
 
-.performance-credits li {
+.performance-credits li,
+.television-items ul li {
 color: #ffffff;
 font-size: 16px;
 list-style: none;
 }
 
-.performance-credits ul {padding-left:0px!important;}
+.performance-credits ul,
+.television-items ul {padding-left:0px!important;}
 
 .video-listed-items {
 text-align: center;

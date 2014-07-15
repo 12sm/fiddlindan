@@ -206,9 +206,11 @@ left: 50%;
 width: 600px;
 margin-left: -300px;
 z-index: 99999;
+margin-top: 25%;
+background: rgba(0,0,0,0.5);
+padding: 15px;
+text-align: center;
 }
-
-.name-treatment h1 {margin-top:65%;background: rgba(0,0,0,0.5);}
 
 .slides {
 padding: 0;

@@ -210,6 +210,7 @@ margin-top: 25%;
 background: rgba(0,0,0,0.5);
 padding: 15px;
 text-align: center;
+z-index:3;
 }
 
 .slides {
@@ -1212,12 +1213,6 @@ button.navbar-toggle {background-color: #444;}
 
 /* HOME - Top slider */
 .headline-box button.btn.btn-read {width: 100%;}
-div.slide-background {
-min-height: 280px;
-background-size: contain!important;
-margin-top: 0;
-padding-top: 26%;
-}
 
 /* General */
 #bg-2, #bg-3, #bg-4 {padding: 50px 0px;}

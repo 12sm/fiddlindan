@@ -59,9 +59,10 @@ var Roots = {
 	      animation: "fade"
 	   });
 	   
-	   var setHeight = $(document).height();
+	   var setHeight = $(window).height();
 	   $("#top-slider-wrapper").css({ 'height': setHeight + "px" });
 	   $(window).resize(function() {
+	   		var setHeight = $(window).height();
 	   		$("#top-slider-wrapper").css({ 'height': setHeight + "px" });
 	   });
 

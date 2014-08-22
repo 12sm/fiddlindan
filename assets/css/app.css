@@ -826,7 +826,8 @@ margin: 5% 10% 0 10%;
 .hentry footer { }
 
 .single-post {
-	background: url(../img/internal-bg.jpg) repeat-y;
+background: url(../img/internal-bg.jpg) repeat-y;
+background-size: cover;
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}
@@ -885,14 +886,6 @@ width:250px;
 height: 0px;
 background-position: 50% 50%!important;
 padding-bottom: 60%;
-}
-
-.wp-post-image {
-margin-bottom: 25px;
-padding: 0 0 1% 1%;
-max-width: 50%;
-float: right;
-margin: 0 0 3% 3%;
 }
 
 body.single .btn-primary {
@@ -1284,11 +1277,19 @@ background: url(../img/internal-bg.jpg) no-repeat;background-size: cover;}
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
 
+.wp-post-image {
+margin-bottom: 25px;
+padding: 0 0 1% 1%;
+max-width: 50%;
+float: right;
+margin: 0 0 3% 3%;
+}
+
 .name-treatment {
 width: 600px;
 }
 
-body.home footer {
+footer {
 background: url(../img/Footer-Image.jpg) no-repeat;
 background-size: cover;
 position: absolute;

@@ -214,16 +214,15 @@ padding-bottom: 0px!important;
 
 .name-treatment {
 position: absolute;
-top: 0px;
+top: 40%;
 left: 50%;
-width: 600px;
+width: 100%;
 margin-left: -300px;
 z-index: 99999;
-margin-top: 25%;
 background: rgba(0,0,0,0.5);
 padding: 15px;
 text-align: center;
-z-index:3;
+z-index: 3;
 }
 
 .slides {
@@ -462,7 +461,7 @@ transition:background-color .3s ease;
 }
 
 li.menu->a {
-padding: 5px!important;
+padding: 10px!important;
 }
 
 .navbar-default .navbar-nav>.active>a,
@@ -1199,6 +1198,8 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* I know, I know, shame on me */
 @media (max-width: 767px) {
 
+.navbar-collapse {max-height: none;}
+
 .three-col {
 -moz-column-count: 1;
        -moz-column-gap: 20px;
@@ -1282,6 +1283,10 @@ background: url(../img/internal-bg.jpg) no-repeat;background-size: cover;}
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+
+.name-treatment {
+width: 600px;
+}
 
 body.home footer {
 background: url(../img/Footer-Image.jpg) no-repeat;
@@ -1412,7 +1417,7 @@ padding-left: 40px;
 
 #menu-primary-navigation {
 margin: 0px auto;
-width: 825px;
+width: 685px;
 float: none;
 }
 

@@ -61,7 +61,9 @@ var Roots = {
 	   
 	   var setHeight = $(document).height();
 	   $("#top-slider-wrapper").css({ 'height': setHeight + "px" });
-	   window.onresize = function { $("#top-slider-wrapper").css({ 'height': setHeight + "px" })};
+	   $(window).resize(function() {
+	   		$("#top-slider-wrapper").css({ 'height': setHeight + "px" });
+	   });
 
     //Smooth Scroll
     $(function() {

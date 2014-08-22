@@ -678,7 +678,7 @@ color: #777;
    Primary Content
    ========================================================================== */
 
-.main {padding-top: 0; padding-bottom: 5%; margin-top:100px;}
+.main {padding-top: 0; padding-bottom: 5%; margin-top:0px;}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }

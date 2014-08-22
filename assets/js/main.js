@@ -56,10 +56,11 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on the home page
       $('#top-slider-wrapper').flexslider({
-    animation: "fade"
-  });
-
-
+	      animation: "fade"
+	   });
+	   
+	   var setHeight = $(document).height();
+	   $(".top-slider-wrapper").css({ 'height': setHeight + "px" });
 
     //Smooth Scroll
     $(function() {

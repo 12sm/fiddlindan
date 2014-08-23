@@ -693,7 +693,8 @@ color: #777;
    Primary Content
    ========================================================================== */
 
-.main {padding-top: 0; padding-bottom: 5%; margin-top:0px;}
+.main {padding-top: 0; padding-bottom: 5%; margin-top:50px;}
+body.home .main {margin-top:0px;}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -1346,10 +1347,6 @@ a.brand {
 
 .col, .post-nav {
 margin: 0 10%;
-}
-
-.page-id-44 .main {
-padding-left: 50px;
 }
 
 .slider-house {

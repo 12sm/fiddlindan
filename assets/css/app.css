@@ -695,6 +695,7 @@ color: #777;
 
 .main {padding-top: 0; padding-bottom: 5%; margin-top:50px;}
 body.home .main {margin-top:0px;}
+body.songwriting .main {padding-bottom:12%;}
 
 /* Gallery Shortcode */
 .gallery-row { padding: 15px 0; }
@@ -794,7 +795,7 @@ max-width: 100%!important;
    Songwriting
    ========================================================================== */
 .page-id-33 {
-    background: url(../img/BG-Music.jpg) no-repeat;
+    background: #000 url(../img/BG-songwriting.jpg) no-repeat;
     background-size: cover;
     background-position-x: -125px;
 	background-size: contain;
@@ -1274,7 +1275,7 @@ body.page-id-44 h1:nth-child(2) {margin-bottom:30px;}
 
 /* SONGWRITER */
 .page-id-33 {
-background: url(../img/internal-bg.jpg) no-repeat;background-size: cover;}
+background: #000 url(../img/BG-songwriting.jpg) no-repeat;background-size: cover;}
 .page-id-33 h1 {font-size: 65px;line-height: .8;text-align: center!important;margin-bottom:30px;}
 .page-id-33 p {text-align: left!important;padding: 0 3%;}
 .bandcamp-embed {width: 80%;margin: 0 auto;}
@@ -1441,7 +1442,7 @@ display: none;
 }
 
 .page-id-33 {
-background: url(../img/BG-Music.jpg) no-repeat;
+background: #000 url(../img/BG-songwriting.jpg) no-repeat;
 background-size: contain;
 background-color: #000;
 }
@@ -1471,7 +1472,7 @@ body.page-id-4 {
 	background-size: contain;
 	background-position: bottom left;
 	background-position-x: -240px;
-	background-position-y: 300px;
+	background-position-y: 130px;
 	background-attachment: fixed;
 }
 .booking-form {padding: 0% 25%;}
@@ -1517,7 +1518,7 @@ display: none;
 }
 
 .page-id-33 {
-background: url(../img/BG-Music.jpg) no-repeat;
+background: #000 url(../img/BG-songwriting.jpg) no-repeat;
 background-position: top center;
 background-size: contain;
 background-color: #000;

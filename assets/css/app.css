@@ -399,12 +399,12 @@ padding-right: 11%;
 
 p.credits {
 margin-bottom: 0;
-color: #fff;
+color: #999;
 font-size: 11px;
 }
 
-p.credits a {color:#313131;}
-p.credits h:hover {color: #53bbeb;text-decoration: none;}
+p.credits a {color:#999;}
+p.credits a:hover {color: #53bbeb;text-decoration: none;}
 
 /* ==========================================================================
    Header
@@ -828,7 +828,8 @@ margin: 5% 10% 0 10%;
 .hentry footer { }
 
 .single-post {
-	background: url(../img/internal-bg.jpg) repeat-y;
+	background: #000 url(../img/internal-bg.jpg) top center scroll no-repeat;
+	background-size: cover;
 }
 
 body.single-post .wrap {margin:0 auto;padding:0 10%;}
@@ -935,8 +936,10 @@ padding: 10px;
 text-align: left;
 }
 
+.post-date {color:#999;}
+
 .individual-post .post-footer .post-date {
-color: #ccc!important;
+color: #999!important;
 font-size: 10px;
 text-transform: uppercase;
 }

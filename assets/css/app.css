@@ -798,7 +798,7 @@ max-width: 100%!important;
     background: #000 url(../img/BG-songwriting.jpg) no-repeat;
     background-size: cover;
     background-position-x: -125px;
-	background-size: contain;
+	background-size: cover;
 }
 
 .bandcamp-embed {width: 80%;margin-bottom: 25px;}
@@ -1443,7 +1443,7 @@ display: none;
 
 .page-id-33 {
 background: #000 url(../img/BG-songwriting.jpg) no-repeat;
-background-size: contain;
+background-size: cover;
 background-color: #000;
 }
 
@@ -1520,7 +1520,7 @@ display: none;
 .page-id-33 {
 background: #000 url(../img/BG-songwriting.jpg) no-repeat;
 background-position: top center;
-background-size: contain;
+background-size: cover;
 background-color: #000;
 }
 

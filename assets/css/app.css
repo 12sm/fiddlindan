@@ -575,10 +575,14 @@ width:90px;
 height: 45px;
 background-size:contain;
 z-index: 500
+outline:none;
+border:0px;
 }
 
 input[type='range']::-ms-thumb {
 background: #fff!important;
+outline:none;
+border:0px;
 }
 
 input[type='range']::-webkit-slider-thumb {
@@ -588,6 +592,8 @@ width:90px;
 height: 45px;
 background-size:contain;
 z-index: 500
+outline:none;
+border:0px;
 }
 
 input[type="button"] {
@@ -1273,7 +1279,7 @@ body.page-id-4 h1 {font-size: 45px;line-height: .8;text-align: center!important;
 
 /* ABOUT */
 .page-id-44 {background: url(../img/internal-bg.jpg) fixed;background-size: cover;}
-body.page-id-44 h1 {font-size: 50px;line-height: .4;text-align: center;}
+body.page-id-44 h1 {font-size: 50px;line-height: .9;text-align: center;}
 body.page-id-44 h1:nth-child(2) {margin-bottom:30px;}
 
 /* SONGWRITER */

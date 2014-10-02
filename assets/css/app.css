@@ -574,18 +574,28 @@ background: url(../img/Player-Slider.png) no-repeat;
 width:90px;
 height: 45px;
 background-size:contain;
+<<<<<<< HEAD
 z-index: 500
 outline:none;
 border:0px;
+=======
+z-index: 500;
+outline: none;
+>>>>>>> FETCH_HEAD
 }
 
 input[type='range']::-ms-thumb {
 background: #fff!important;
+<<<<<<< HEAD
 outline:none;
 border:0px;
+=======
+outline: none;
+>>>>>>> FETCH_HEAD
 }
 
 input[type='range']::-webkit-slider-thumb {
+outline: none;
 -webkit-appearance: none;
 background: url(../img/Player-Slider.png) no-repeat;
 width:90px;

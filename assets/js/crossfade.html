@@ -5,8 +5,8 @@
     <div class="row">
     <div class="col-sm-12">
       <div class="slider-body">
-        <i class="slider-control fa fa-play [wpv-post-id]" onclick="sample[wpv-post-id].toggle();"></i>
-            <i class=" slider-control fa fa-pause hide [wpv-post-id]" onclick="sample[wpv-post-id].toggle();"></i>
+        <i class="slider-control fa fa-play [wpv-post-id]" onclick="sample[wpv-post-id].play();"></i>
+            <i class=" slider-control fa fa-pause hide [wpv-post-id]" onclick="sample[wpv-post-id].stop();"></i>
             <div class="slider-house">
           <div class="slider-section">
 <input type="range" min="0" max="100" value="50" ontouchmove="sample[wpv-post-id].crossfade(this);" onmousemove="sample[wpv-post-id].crossfade(this);">
@@ -48,6 +48,8 @@
 }
 
 CrossfadeSample.prototype.play = function() {
+  $('.fa-play').addClass('hide');
+   $('.fa-pause').removeClass('hide');
   startTime[wpv-post-id] = context.currentTime;
   // Create two sources.
   this.ctl[wpv-post-id]1 = createSource(this.alpha);
@@ -83,7 +85,8 @@ CrossfadeSample.prototype.play = function() {
 };
 
 CrossfadeSample.prototype.stop = function() {
-
+$('.fa-pause').addClass('hide');
+   $('.fa-play').removeClass('hide');
   // Measure how much time passed since the last pause.
   startOffset[wpv-post-id] += context.currentTime - startTime[wpv-post-id];
   var offName = this.ctl[wpv-post-id]1.source.stop ? 'stop' : 'noteOff';
@@ -106,6 +109,7 @@ $('.[wpv-post-id]').toggleClass('hide');
   this.isPlaying ? this.stop() : this.play();
   this.isPlaying = !this.isPlaying;
 };
+
             
 
           </script>

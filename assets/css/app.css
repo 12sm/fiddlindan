@@ -574,14 +574,17 @@ background: url(../img/Player-Slider.png) no-repeat;
 width:90px;
 height: 45px;
 background-size:contain;
-z-index: 500
+z-index: 500;
+outline: none;
 }
 
 input[type='range']::-ms-thumb {
 background: #fff!important;
+outline: none;
 }
 
 input[type='range']::-webkit-slider-thumb {
+outline: none;
 -webkit-appearance: none;
 background: url(../img/Player-Slider.png) no-repeat;
 width:90px;
